@@ -1,0 +1,274 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>IAT 339 Style Guide</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<section>
+
+<div class="nav-holder">
+<div class="nav">
+<a href="#interactive-elements"><li>Interactive Elements</li></a></div>
+<div class="nav"><a href="#text-styling"><li>Text Styling</li></a></div>
+<div class="nav"><a href="#combined-elements"><li>Combined Elements</li></a></div>
+</div>
+</section>
+
+
+<div class="body-content">
+
+
+
+
+<div id="interactive-elements" class="item-content">
+
+<h1>Navigation Button</h1>
+<p>CSS Selector:</p>
+
+<div class="item-content-style"> .button-nav</div>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;a href="#interactive-elements" class="button-nav"&gt;Default Button&lt;/a&gt;<p1></code>
+
+<p>Rendered Element:</p>
+
+<div class="button-nav">
+<a href="#interactive-elements"><p2>Default Button</p2></a>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="item-content">
+
+<h1>Intext Link</h1>
+<p>CSS Selector:</p>
+
+<div class="item-content-style"> .intext-link</div>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;p2>This is an&lt;/p2>&lt;a href="#interactive-elements" class="intext-link"&gt;&lt;p3>Intext Link&lt;p3&gt;&lt;a><p1></code>
+
+<p>Rendered Element:</p>
+
+<div class="intext-link">
+<p2>This is an</p2> <a href="#interactive-elements"><p3>Intext Link</p3></a>
+</div>
+</div>
+
+
+
+
+
+<div class="item-content">
+
+<h1>Submit/Reset Button</h1>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;input type="submit" value="Submit Button"&gt;<p1></code>
+
+<p>Rendered Element:</p>
+
+ <input type="submit" value="Submit Button">
+ <input type="reset" value="Reset Button">
+</div>
+
+
+
+
+
+
+
+<div class="item-content">
+
+<h1>Text Input Field</h1>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;input type="text" id="form-subject" placeholder="Text Input Field"&gt;<p1></code>
+
+<p>Rendered Element:</p>
+
+<input type="text" id="form-subject" placeholder="Text Input Field">
+
+</div>
+
+
+
+
+
+
+
+<div id="text-styling" class="item-content">
+
+<h1>Heading</h1>
+<p>CSS Selector:</p>
+
+<div class="item-content-style"> .heading</div>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;div class="heading"&gt;Heading&lt;/div&gt;<p1></code>
+
+<p>Rendered Element:</p>
+<div class="heading"><h1>Heading</h1></div>
+</div>
+
+
+
+
+
+
+
+<div class="item-content">
+
+<h1>Paragraphs</h1>
+<p>CSS Selector:</p>
+
+<div class="item-content-style"> .body-text</div>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;div class="body-text"&gt;Example body text&lt;/div&gt;<p1></code>
+
+<p>Rendered Element:</p>
+<div class="body-text"><p5>Example body text</p5></div>
+</div>
+
+
+
+
+<div class="item-content">
+
+<h1>Bulleted Lists</h1>
+<p>CSS Selector:</p>
+
+<div class="item-content-style"> .ul li</div>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;li>Sample lists&lt;/li&gt;<p1></code>
+
+<p>Rendered Element:</p>
+<ul>
+<li><p6>Sample list 1</p6></li>
+<li><p6>Sample list 2</p6></li>
+<li><p6>Sample list 3</p6></li>
+</ul>
+</div>
+
+
+
+
+<div class="item-content">
+
+<h1>Numbered Lists</h1>
+<p>CSS Selector:</p>
+
+<div class="item-content-style"> .ol li</div>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;ol>&lt;li>Sample lists&lt;/li>&lt;/ol&gt;<p1></code>
+
+<p>Rendered Element:</p>
+<ol>
+<li><p5>Sample list 1</p5></li>
+<li><p5>Sample list 2</p5></li>
+<li><p5>Sample list 2</p5></li>
+</ol>
+
+</div>
+
+
+
+
+
+
+<div id="combined-elements" class="item-content">
+
+<h1>Main Navigation</h1>
+
+<p>Sample Code:</p>
+
+
+<code><p1>&lt;div class="main-nav">Home&lt;/div&gt;<p1></code>
+<code><p1>&lt;div class="main-nav">Category&lt;/div&gt;<p1></code>
+<code><p1>&lt;div class="main-nav">Category&lt;/div&gt;<p1></code>
+<code><p1>&lt;div class="main-nav">Event&lt;/div&gt;<p1></code>
+
+<p>Rendered Element:</p>
+
+<div class="main-nav-wrapper">
+<div class="main-nav"><p2>Home</p2></div>
+<div class="main-nav"><p2>Category</p2></div>
+<div class="main-nav"><p2>Event</p2></div>
+
+</div>
+</div>
+
+
+
+
+<div class="item-content">
+
+<h1>Product List</h1>
+<p>CSS Selector:</p>
+
+<div class="item-content-style"> .product-list</div>
+
+<p>Sample Code:</p>
+
+<code><p1>&lt;ul>&lt;li>Birhday&lt;/li>&lt;ol>&lt;li>1&lt;li>&lt;&lt;ol>/ul&gt;<p1></code>
+
+<p>Rendered Element:</p>
+
+<ul><li><p6>Birthday</p6></li>
+<ol>
+<li><p5>Carnation</p5></li>
+<li><p5>Iris</p5></li>
+<li><p5>Daffodil</p5></li>
+<ol>
+</ul>
+
+<ul><li><p6>Wedding</p6></li>
+<ol>
+<li><p5>Rose</p5></li>
+<li><p5>Tulip</p5></li>
+<li><p5>Calla Lily</p5></li>
+<ol>
+</ul>
+
+
+<ul><li><p6>Romance</p6></li>
+<ol>
+<li><p5>Iris</p5></li>
+<li><p5>Orchid</p5></li>
+<li><p5>Camellia</p5></li>
+<ol>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
