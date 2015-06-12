@@ -96,7 +96,7 @@ ol li::before{
 }
 .body-content p2{
 
-	color:#f2d1c7;	
+	color:#bdb3a9;	
 }
 .body-content p2:hover,active,visited{
 
@@ -115,7 +115,7 @@ ol li::before{
 
 input[type=submit],[type=reset] {
 padding:5px 15px; 
-background:#f6bcaa; 
+background:#166c5c; 
 border:0 none;
 color:white;
 border-radius: 5px; 
@@ -124,7 +124,7 @@ border-radius: 5px;
 
 input[type=submit]:hover,[type=reset]:hover {
 
-background:#f2d1c7; 
+background:#c2ddc3; 
 
 
 }
@@ -153,7 +153,7 @@ input[type=text] {
 
 .heading h1{
 	font-size:23px;
-	color: #f6bcaa;
+	color: #bdb3a9;
 	
 	
 }
@@ -173,13 +173,13 @@ input[type=text] {
 
 .item-content p5{
 	
-	color:#919191;
+	color:#bdb3a9;
 }
 
 
 .item-content p6{
 	
-	color:#919191;
+	color:#bdb3a9;
 }
 
 
