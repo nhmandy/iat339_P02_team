@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width">
   <title>Florist</title>
 
   <link href="css/main.css" rel="stylesheet" type="text/css">
+
+  <link href="css/desktop.css" rel="stylesheet" type="text/css">
+  <link href="css/tablet.css" rel="stylesheet" type="text/css">
+  <link href="css/phone.css" rel="stylesheet" type="text/css">
   <script src="css/mouse.js"></script>
   <meta charset="UTF-8">
 
 </head>
 <body>
-<!-- logo -->
+<!-- header/logo -->
   <div class="wrapper">
     
-    <div class ="logo">
-       <p>Logo</p>
+    <div class ="header">
+      <a href="#" id="sign-up" onclick="signupPopup()"><p1>Sign Up</p1></a>
+      <a href="#" id="log-in" onclick="loginPopup()"><p1>Log In</p1></a>
+      <p>Logo</p>
     </div>
-
+    
+    <a href="shopping-cart.html" id="cart-button"></a>
 <!--navigation-->
-    <div id="main-nav" class="main-nav-wrapper">
+    <div class="main-nav">
       
-        <div class="main-nav"><p2><a href="#">Home</a></p2></div>
-        <div class="main-nav"><p2><a href="#">About</a></p2></div>
-        <div class="main-nav"><p2><a href="#" onclick="onClick()">Online Shop</a></p2></div>
-        <div class="main-nav"><p2><a href="#">Event</a></p2></div>
-        <div class="main-nav"><p2><a href="#">Delivery Information</a></p2></div>
-        <div class="main-nav"><p2><a href="#">Contact</a></p2></div>
+        <div class="nav-button"><p2><a href="#">Home</a></p2></div>
+        <div class="nav-button"><p2><a href="#">About</a></p2></div>
+        <div class="nav-button"><p2><a href="#" onclick="onClick()">Online Shop</a></p2></div>
+        <div class="nav-button"><p2><a href="#">Event</a></p2></div>
+        <div class="nav-button"><p2><a href="#">Delivery Information</a></p2></div>
+        <div class="nav-button"><p2><a href="#">Contact</a></p2></div>
     
     </div>
 
@@ -48,19 +56,48 @@
 
 
     </div>
+
+<!--log in pop-up -->
+    <div id="log-in-page">
+      <h1>log-in page</h1>
+
+      <div id="log-in-pop-up-content">
+    </div>
+
+    <div id="log-in-pop-up-close" onclick="loginClose()">
+      <h2>close</h2>
+    </div>
+
+
+    </div>
+
+
+<!--sign in pop-up -->
+    <div id="sign-up-page">
+      <h1>sign up page</h1>
+
+      <div id="sign-up-pop-up-content">
+    </div>
+
+    <div id="sign-up-pop-up-close" onclick="signupClose()">
+      <h2>close</h2>
+    </div>
+
+    </div>
+
     
-<!--home image-->
-    <div class="home-img">
+<!--main image-->
+    <div class="main-image">
       <img src="">
       
     </div>
 
 <!--categories-->
-    <div>
+    <div class="headline">
       <h1>Categories</h1>
     </div>
     
-    <div class="cate-slide">
+    <div class="category">
 
       <a href="#" id="link-popular">
         <img src""></a>
@@ -74,25 +111,25 @@
     </div>
 
 <!--events-->
-    <div>
+    <div class="headline">
       <h1>Events</h1>
     </div>
 
-    <div class="event-img">
+    <div class="event">
       <img src="">
       
     </div>
     
 <!--footer-->    
     <div class="footer">
-      <p>our story</p>
-      <p>careers</p>
-      <p>contact us</p>
-      <p>privacy policy</p>
-      <p>terms of service</p>
-      <img scr"">
-      <img scr"">
-      <img scr"">
+      <a href="#" id="footer-content"><p1>Our Story</p1></a>
+      <a href="#" id="footer-content"><p1>Careers</p1></a>
+      <a href="#" id="footer-content"><p1>Contact Us</p1></a>
+      <a href="#" id="footer-content"><p1>Private Policy</p1></a>
+      <a href="#" id="footer-content"><p1>Terms of Service</p1></a>
+      <div class="social-media">1</div>
+      <div class="social-media">2</div>
+      <div class="social-media">3</div>
     </div>
       
       

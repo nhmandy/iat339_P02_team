@@ -8,29 +8,29 @@
 
 .body li,a,h1,p,p1,p2,p3,p4,p5,p6{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  text-align: center;
 }
 
 .wrapper{
   width: 100%;
 }
 
-.logo {
+.header {
   margin-top: 0;
   background-color: #F8BEA2;
   width: 100%;
-  height: 300px;
+  height: 200px;
 }
 
-.logo p{
-  padding-top: 200px;
+.header p{
+  padding-top: 100px;
   text-align: center;
   font-size: 60px;
   color: #fff;
 }
 
 
-
+/*
 .main-nav-wrapper{
   width: 100%;
   margin: 1em auto;
@@ -45,13 +45,18 @@
   display: inline-block;
 
 }
+*/
 .main-nav a{
   color: #bdb3a9;
-  text-decoration: none;
-
  
 }
 
+a {
+  text-decoration:none;
+  
+}
+
+/*
 .main-nav a:hover,active,visited{
   color:#e5a493;
   cursor:pointer;
@@ -81,18 +86,28 @@
   color:white;
 }
 
+
 .home-img {
   width: 100%;
   height: 500px;
   background-color: #D3D3D3;
   
 }
+*/
 
 h1 {
   color: #bdb3a9;
   margin: 0.5em;
   text-align: center;
   font-size: 1.5em;
+}
+
+h2{
+  font-size: 18px;
+  color:#BDB3A8;
+  font-weight: lighter;
+  
+  
 }
 
 h3 {
@@ -103,9 +118,40 @@ h3 {
 
 }
 
+p1{
+  font-size: 16px;
+  font-weight: lighter;
+  color:#E3845C;
+  
+  
+}
 
+#log-in{
+  width:70px;
+  height:30px;
+  margin-left:5px;
+  background:#CCC;
+  border:white dotted thin;
+  float:right;
+  display:block;
+  
+}
+
+#sign-up{
+  
+  width:70px;
+  height:30px;
+  margin-left:5px;
+  background:#CCC;
+  border:white dotted thin;
+  float:right;
+  display:block;
+  
+}
+
+/*
 .cate-slide {
-  text-align: center;;
+  text-align: center;
 }
 .cate-slide img{
   margin: 0 1%;
@@ -114,6 +160,7 @@ h3 {
   background-color: #D3D3D3;
   border-style: none;
 }
+
 
 .event-img {
   width: 100%;
@@ -145,5 +192,6 @@ h3 {
   margin: 0 10px;
   float: right;
 }
+*/
 
 
