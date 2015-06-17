@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.box-one{
+	
+	
+	width:50%;
+	height:200px;
+	background:pink;
+	float:left;
+	
+}
+.box-two{
+	
+	
+	width:50%;
+	height:200px;
+	background:blue;
+	float:left;
+	
+}
+.box-three{
+	
+	
+	width:50%;
+	height:200px;
+	background:green;
+	float:left;
+	
+}
+.box-four{
+	
+	
+	width:50%;
+	height:200px;
+	background:purple;
+	float:left;
+	
+}

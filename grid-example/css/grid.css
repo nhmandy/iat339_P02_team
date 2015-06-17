@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (max-width:480px){
+	
+.box-one{
+	
+	
+	width:100%;
+	height:200px;
+	background:pink;
+	float:left;
+	
+}
+.box-two{
+	
+	
+	width:100%;
+	height:200px;
+	background:blue;
+	float:left;
+	
+}
+.box-three{
+	
+	
+	width:100%;
+	height:200px;
+	background:green;
+	float:left;
+	
+}
+.box-four{
+	
+	
+	width:100%;
+	height:200px;
+	background:purple;
+	float:left;
+	
+}
+	
+	
+	
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:800){
+	
+.box-one{
+	
+	
+	width:100%;
+	height:200px;
+	background:pink;
+	float:left;
+	
+}
+.box-two{
+	
+	
+	width:100%;
+	height:200px;
+	background:blue;
+	float:left;
+	
+}
+.box-three{
+	
+	
+	width:100%;
+	height:200px;
+	background:green;
+	float:left;
+	
+}
+.box-four{
+	
+	
+	width:100%;
+	height:200px;
+	background:purple;
+	float:left;
+	
+}
+	
+	
+	
+}
+
+@media screen and (min-width:801){
+		
+.box-one{
+	
+	
+	width:50%;
+	height:200px;
+	background:pink;
+	float:left;
+	
+}
+.box-two{
+	
+	
+	width:50%;
+	height:200px;
+	background:blue;
+	float:left;
+	
+}
+.box-three{
+	
+	
+	width:50%;
+	height:200px;
+	background:green;
+	float:left;
+	
+}
+.box-four{
+	
+	
+	width:50%;
+	height:200px;
+	background:purple;
+	float:left;
+	
+}
+	
+	
+	
+}
