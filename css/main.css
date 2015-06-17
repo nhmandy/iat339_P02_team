@@ -1,19 +1,23 @@
 @charset "UTF-8";
 
+* {
+  margin: 0;
+  padding: 0;
+    
+}
+
 .body li,a,h1,p,p1,p2,p3,p4,p5,p6{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 18px;
-	
 }
 
-
-.wrapper {
-  width: 1200px;
-  margin: 0 auto;
+.wrapper{
+  width: 100%;
 }
 
 .logo {
-  background-color: #e5a493;
+  margin-top: 0;
+  background-color: #F8BEA2;
   width: 100%;
   height: 300px;
 }
@@ -35,7 +39,7 @@
 }
 
 .main-nav {
-  width: 170px;
+  width: 15%;
   margin: auto;
   text-align: center;
   display: inline-block;
@@ -53,10 +57,35 @@
   cursor:pointer;
 }
 
-.news-img img{
+#sub-menu{
+  width:100%;
+  height:0px;
+  background:#E5DED7;
+  float:left;
+  overflow:hidden;
+}
+
+.sub-menu-colum{
+  width:25%;
+  float:left;
+  text-align:center;  
+  
+}
+
+#sub-menu a{
+  text-decoration:none;
+  color:#BDB3A8;
+}
+
+#sub-menu a:hover,active,visited{
+  color:white;
+}
+
+.home-img {
   width: 100%;
   height: 500px;
   background-color: #D3D3D3;
+  
 }
 
 h1 {
@@ -66,27 +95,44 @@ h1 {
   font-size: 1.5em;
 }
 
+h3 {
+
+  margin: 0.5em;
+  padding-top: 6px;
+  text-align: center;
+
+}
+
+
 .cate-slide {
   text-align: center;;
 }
 .cate-slide img{
-  margin: 0.3em 0;
-  width: 297px;
+  margin: 0 1%;
+  width: 21%;
+  height: 250px;
+  background-color: #D3D3D3;
+  border-style: none;
+}
+
+.event-img {
+  width: 100%;
   height: 300px;
   background-color: #D3D3D3;
 }
 
 .footer {
-  background-color: #e5a493;
+  background-color: #F8BEA2;
   width: 100%;
   height: 60px;
   margin: 0.8em 0;
   padding-top: 40px;
+  text-align: center;
 }
 
 .footer p{
-  padding: 50px;
-  color: brown;
+  padding: 5%;
+  color: #e5a493;
   display: inline;
   font-weight: normal;
   font-size: 0.9em;

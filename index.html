@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Florist</title>
 
   <link href="css/main.css" rel="stylesheet" type="text/css">
+  <script src="css/mouse.js"></script>
+  <meta charset="UTF-8">
+
 </head>
 <body>
 <!-- logo -->
@@ -12,35 +15,75 @@
     <div class ="logo">
        <p>Logo</p>
     </div>
-  
+
+<!--navigation-->
     <div id="main-nav" class="main-nav-wrapper">
       
         <div class="main-nav"><p2><a href="#">Home</a></p2></div>
         <div class="main-nav"><p2><a href="#">About</a></p2></div>
-        <div class="main-nav"><p2><a href="#">Online Shop</a></p2></div>
+        <div class="main-nav"><p2><a href="#" onclick="onClick()">Online Shop</a></p2></div>
         <div class="main-nav"><p2><a href="#">Event</a></p2></div>
         <div class="main-nav"><p2><a href="#">Delivery Information</a></p2></div>
         <div class="main-nav"><p2><a href="#">Contact</a></p2></div>
     
     </div>
+
+    <div id="sub-menu" onmouseover="onClick()" onmouseout="onmouseOut()">
+
+    <div class="sub-menu-colum">
+      <a href="#"><h3>Popular</h3></a>
+      <a href="#"><h3>Holidays</h3></a></div>
+
+    <div class="sub-menu-colum">
+      <a href="#"><h3>Anniversary</h3></a>
+      <a href="#"><h3>Birthday</h3></a></div>
+
+    <div class="sub-menu-colum">
+      <a href="#"><h3>Wedding</h3></a>
+      <a href="#"><h3>Romance</h3></a></div>
+
+    <div class="sub-menu-colum">
+      <a href="#"><h3>Seasonal</h3></a>
+      <a href="#"><h3>Thank You</h3></a></div>
+
+
+    </div>
     
-    <div class="news-img">
+<!--home image-->
+    <div class="home-img">
       <img src="">
       
     </div>
-    
+
+<!--categories-->
     <div>
       <h1>Categories</h1>
     </div>
     
     <div class="cate-slide">
-      <img src"">
-      <img src"">
-      <img src"">
-      <img src"">
+
+      <a href="#" id="link-popular">
+        <img src""></a>
+      <a href="#" id="link-holidays">
+        <img src""></a>
+      <a href="#" id="link-anniversary">
+        <img src""></a>
+      <a href="#" id="link-birthday">
+        <img src""></a>
+
+    </div>
+
+<!--events-->
+    <div>
+      <h1>Events</h1>
+    </div>
+
+    <div class="event-img">
+      <img src="">
+      
     </div>
     
-    
+<!--footer-->    
     <div class="footer">
       <p>our story</p>
       <p>careers</p>
