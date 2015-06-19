@@ -1,0 +1,202 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  color: #483c32;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+
+  /*-webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out; */
+}
+
+.intxtlink{
+  display: inline-block;
+  color: #000;
+
+
+}
+
+.bull .li{
+  color: #837e7c;
+  margin: 0;
+  padding: 1em 1em;
+}
+
+
+
+.li{
+  font: 200 20px/1.5 Helvetica,verdana, sans-serif;
+  border-bottom: none;
+}
+
+.button{
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  background-color: #b5eaaa;
+  text-decoration: none;
+
+
+
+}
+
+.button:hover, .buttun:focus {
+  background-color: #99c68e;
+}
+
+.form{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.title{
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #837e7c;
+  font-size: 1.5em;
+
+}
+
+.heading{
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-right: 18em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  color: #555;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #b5eaaa;
+  text-decoration: none;
+  font-size: 1.3em;
+
+}
+.heading_s{
+  display: inline-block;
+  color: #555;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1em;
+
+}
+
+.product_name{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  color: #555;
+  font-size: 1.3em;
+
+}
+
+.price{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  color: #555;
+  font-size: 0.4em;
+
+}
+
+.p{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  color: #fff;
+ 
+}
+
+.footer{
+  font-family: Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #000;
+ 
+}
+
+
+.pro_list{
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  background-color: #837e7c;
+  padding: 1em 2em;
+ 
+}
+
+div {
+  margin: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+ 
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+ 
+li p {
+  font: 200 12px/1.5 arial, serif;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
