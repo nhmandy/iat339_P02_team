@@ -3,6 +3,13 @@
 
 @media (min-width:1000px){
 	
+h1{
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: lighter;
+
+	
+}
 .main-nav{
 
 	width:100%;
@@ -127,7 +134,7 @@
 .shopping-cart{
 	width:70%;
 	margin-top: 2em;
-	margin-left:10%;
+	margin-left:15%;
 	height:500px;
 	float:left;
 	background:white;
@@ -181,10 +188,11 @@
 }
 .event{
 	width:100%;
-	height:200px;
+	height:300px;
 	margin-top: 10px;
 	float:left;
 	background:#CCC;
+	overflow:hidden;
 	
 	
 	
@@ -234,13 +242,12 @@
 	width:100%;
 	height:150px;
 	text-align: center;
-	margin-top:20px;
 	float:left;
 	background:#F8BEA2;
 		
 }
 #footer-content{
-	width:15%;
+	width:14%;
 	padding-top:2%;
 	display: inline-block;
 	
@@ -265,7 +272,12 @@
 /*tablet*/
 @media (min-width:481px) and (max-width:999px){
 	
+h1{
+	font-size: 14px;
+	font-weight: lighter;
+
 	
+}
 .main-nav{
 	
 	width:100%;
@@ -383,7 +395,7 @@
 .shopping-cart{
 	width:70%;
 	margin-top: 2em;
-	margin-left:10%;
+	margin-left:15%;
 	height:500px;
 	float:left;
 	background:white;
@@ -416,7 +428,7 @@
 }
 
 .items{
-	width:65%;
+	width:64%;
 	height:200px;
 	background:white;
 	border:#BDB3A8 solid thin;
@@ -435,10 +447,11 @@
 }
 .event{
 	width:100%;
-	height:200px;
+	height:300px;
 	margin-top: 10px;
 	float:left;
 	background:#CCC;
+	overflow:hidden;
 
 }
 
@@ -448,6 +461,7 @@
 	background:#CCC;
 	border:#BDB3A8 solid thin;
 	float:left;
+
 	
 }
 
@@ -485,7 +499,6 @@
 	width:100%;
 	height:150px;
 	text-align:  center;
-	margin-top:20px;
 	float:left;
 	background:#F8BEA2;
 		
@@ -514,7 +527,7 @@
 
 /*phone*/
 @media (max-width:480px){
-	
+
 .main-nav{
 	width:100%;
 	text-align: center;
@@ -644,7 +657,8 @@
 
 
 .shopping-cart{
-	width:100%;
+	width:96%;
+	margin-left:2%;
 	height:500px;
 	margin-top: 2em;
 	float:left;
@@ -679,6 +693,7 @@
 	margin-top: 10px;
 	float:left;
 	background:#CCC;
+	overflow:hidden;
 
 }
 
@@ -692,7 +707,8 @@
 }
 
 .items{
-	width:60%;
+	width:58%;
+	margin-left:2%;
 	height:200px;
 	background:white;
 	border:#BDB3A8 solid thin;
@@ -742,7 +758,6 @@
 	width:100%;
 	float: left;
 	text-align: center;
-	margin-top:20px;
 	background:#F8BEA2;
 		
 }
