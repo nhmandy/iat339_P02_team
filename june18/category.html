@@ -15,8 +15,8 @@
 
 <!--header-->
 <div class="header">
-    <div class="top-header"><a href="#" id="sign-up" onclick="signupPopup()"><p1>Sign Up</p1></a>
-	<a href="#" id="log-in" onclick="loginPopup()"><p1>Log In</p1></a></div>
+    <div class="top-header"><a href="#" id="sign-up" onclick="signupPopup()"><h3>Sign Up</h3></a>
+	<a href="#" id="log-in" onclick="loginPopup()"><h3>Log In</h3></a></div>
 	<div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
 		
 </div>
@@ -24,14 +24,32 @@
 
 
 <div id="log-in-page">
-<h1>log-in page</h1>
+	<h3>Log-in page</h3>
 
-<div id="log-in-pop-up-content">
-</div>
+	<div id="log-in-pop-up-content">
+		<fieldset>
+			<form action="javascript:void(0);" method="get">
 
-<div id="log-in-pop-up-close" onclick="loginClose()">
-<h2>close</h2>
-</div>
+        		<input type="email" required value="Email" onBlur="if(this.value=='')this.value='Email'" onFocus="if(this.value=='Email')this.value='' "> <!-- JS because of IE support; better: placeholder="Email" -->
+
+        		<input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "> <!-- JS because of IE support; better: placeholder="Password" -->
+
+        		<div class="check-out-button"><p4>Log In</p4></div>
+
+        		<footer class="clearfix">
+
+          		<p2><span class="info">?</span><a href="#">Forgot Password</a></p2>
+
+        		</footer>
+
+      		</form>
+  		</fieldset>
+
+	</div>
+
+	<div id="log-in-pop-up-close" onclick="loginClose()">
+		<h3>Close</h3>
+	</div>
 
 
 </div>
@@ -39,16 +57,36 @@
 
 
 <div id="sign-up-page">
-<h1>sign up page</h1>
+	<h3>Sign-up page</h3>
 
-<div id="sign-up-pop-up-content">
+	<div id="sign-up-pop-up-content">
+    	<fieldset>
+			<form action="javascript:void(0);" method="get">
+				
+				<input type="text" required value="Name" onBlur="if(this.value=='')this.value='Name'" onFocus="if(this.value=='Name')this.value='' "> <!-- JS because of IE support; better: placeholder="Email" -->
+        		<input type="email" required value="Email" onBlur="if(this.value=='')this.value='Email'" onFocus="if(this.value=='Email')this.value='' "> <!-- JS because of IE support; better: placeholder="Email" -->
+
+        		<input type="text" required value="Set Password" onBlur="if(this.value=='')this.value='Set Password'" onFocus="if(this.value=='Set Password')this.value='' "> <!-- JS because of IE support; better: placeholder="Password" -->
+        		<input type="text" required value="Confirm Password" onBlur="if(this.value=='')this.value='Confirm Password'" onFocus="if(this.value=='Confirm Password')this.value='' "> <!-- JS because of IE support; better: placeholder="Password" -->
+
+        		<div class="check-out-button"><p4>Sign Up</p4></div>
+
+        		<footer class="clearfix">
+
+          		<p2><span class="info">?</span><a href="#">Forgot Password</a></p2>
+
+        		</footer>
+
+      		</form>
+  		</fieldset>
+	</div>
+
+	<div id="sign-up-pop-up-close" onclick="signupClose()">
+	<h3>Close</h3>
+	</div>
+
 </div>
 
-<div id="sign-up-pop-up-close" onclick="signupClose()">
-<h2>close</h2>
-</div>
-
-</div>
 
 
 <!--navigation-->
@@ -59,7 +97,7 @@
 <a href="#" class="nav-button" onclick="onClick()"><h1>Shop Online</h1></a>
 <a href="event.html" class="nav-button"><h1>Event</h1></a>
 <a href="delivery.html" class="nav-button"><h1>Delivery Information</h1></a>
-<a href="#" class="nav-button"><h1>Contact</h1></a>
+<a href="contact.html" class="nav-button"><h1>Contact</h1></a>
 
 <a href="shopping-cart.html" id="cart-button">
 <img src="images/shopping-cart.png" width="38" height="38">
