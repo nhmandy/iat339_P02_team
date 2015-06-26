@@ -14,10 +14,12 @@ body li,a,h1,h2,h3,h4,h5,h6,p,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12{
 }
 
 .header {
-  margin-top: 0;
-  background-color: #F8BEA2;
+  
+  background-color: #fff;
   width: 100%;
   height: 200px;
+  text-align: center;
+  
 }
 
 a{
@@ -35,7 +37,7 @@ h1{
 h2{
 	
 	font-size: 18px;
-	font-weight: lighter;
+	font-weight: bold;
 	color:#bdb3a9;
 	
 }
@@ -61,8 +63,18 @@ h5{
 	
 }
 
+h6{
+	font-size: 30px;
+	color: #bdb3a9;
+	font-weight: bolder;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+
 p{
-	color:white;
+	color:#AA9482;
 	font-size: 22px;
 	padding-top:50px;
 	
@@ -75,11 +87,8 @@ p1{
 	
 }
 p2{
-	
-	
+	color:#AA9482;
 
-	
-	
 }
 p3{
 	
@@ -189,15 +198,31 @@ p13{
 	
 }
 
+p14{
+	z-index: 100;
+	font-size: 50px;
+	font-weight: bolder;
+	color: #CCFF99;
+	position: absolute;
+	right: 50px;
+	margin-top: 10%;
 
-
-
-
-.header{
-	width: 100%;
-	height: 200px;
-	text-align: center;
 }
+p15{
+	z-index: 100;
+	font-size: 50px;
+	font-weight: bolder;
+	color: #fff;
+	position: absolute;
+	right: 50px;
+	margin-top: 7%;
+
+}
+
+
+
+
+
 
 #log-in{
 	width:70px;
