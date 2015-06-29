@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+.event-wrapper h1{
+	
+	color:#BCB3AB;
+	font-size:2em;
+	max-width:50%;
+	padding:0;
+	line-height:1.5em;
+	margin-left:25%;
+	border-top:#BCB3AB solid thin;
+	border-bottom:#BCB3AB solid thin;
+	
+	
+}
+.event-wrapper h2{
+	
+	color:#BCB3AB;
+	font-size:1.3em;
+	max-width:50%;
+	margin-left:25%;
+    cursor:pointer;
+	border:#BCB3AB solid thin;
+	
+}
+
+.upcoming h3{
+	text-align:right;
+	font-size:1em;
+	background:#BCB3B5;
+	color:white;
+	padding-right:1em;
+	width:100%;
+	
+
+	
+	
+}
+.event-wrapper h2:hover{
+	
+	color:#F7BDA3;
+	border:#F7BDA3 solid thin;
+	
+}
+
+
+.event-wrapper p1{
+	
+	color:#BCB3AB;
+	background:transparent;
+	line-height:0.2em;
+	font-size:1.2em;
+	border:none;
+	cursor:text;
+	
+	
+}
+.event-wrapper p2{
+	
+	color:#BCB3AB;
+	font-size:1em;
+	border:none;
+	padding:0;
+	cursor:text;
+	background:transparent;
+	
+	
+}
+.body-wrapper{
+	
+	width:100%;
+	height:100%;
+	float:left;
+	background:#F4F4F4;
+	padding-bottom:1.25em;
+	
+	
+	
+}
+
+.event-wrapper{
+	
+	margin-left:20%;
+	margin-top:1.25em;
+	
+	
+}
+
+.event-pic1{
+	
+    
+	float:left;
+	
+	background-image: url(../images/event1.jpg);
+	background-repeat: no-repeat;
+    background-size:auto 100%;
+	background-position:0 bottom;
+	
+	width:300px;
+	height:300px;
+	
+}
+.event-pic2{
+	
+    
+	float:left;
+	
+	background-image: url(../images/event2.jpg);
+	background-repeat: no-repeat;
+    background-size:auto 100%;
+	background-position:-80px bottom;
+	
+	width:300px;
+	height:300px;
+	
+}
+.event-pic3{
+	
+    
+	float:left;
+	
+	background-image: url(../images/event3.jpg);
+	background-repeat: no-repeat;
+    background-size:auto 100%;
+	background-position:3px bottom;
+	
+	width:300px;
+	height:300px;
+	
+}
+.event-pic4{
+	
+    
+	float:left;
+	
+	background-image: url(../images/event4.jpg);
+	background-repeat: no-repeat;
+    background-size:auto 100%;
+	background-position:-20px 0;
+	
+	width:300px;
+	height:300px;
+	
+}
+.event-pic1 img, .event-pic2 img, .event-pic3 img, .event-pic4 img{
+	width:300px;
+	height:300px;
+	
+	
+}
+
+.event-inf{
+	background:white;
+	float:left;
+	height:299px;
+	width:60%;
+	text-align:center;
+	border:#BCB3AB solid thin;
+
+	
+	
+	
+}
+
+.event-paragraph1{
+	
+	width:100%;
+	margin-top:2.5em;
+	
+}
+.event-paragraph2{
+	
+	width:100%;
+	margin-bottom:1.25em;
+
+	
+}
+.event-paragraph3{
+	
+	width:75%;
+	margin-left:15%;
+	text-align:left;
+	
+}
+.event-paragraph4{
+	
+	width:80%;
+	margin-left:10%;
+	margin-top:1.25em;
+	text-align:left;
+	
+}
+
+
+.upcoming{
+	position:relative;
+	margin-right:1em;
+	float:right;
+	text-align:right;
+	right:0;
+	
+	
+}

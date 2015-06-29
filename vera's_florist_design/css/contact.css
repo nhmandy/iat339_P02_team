@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.contact-content-wrapper h1{
+	font-size:1.5em;
+	color:#B2AAA0;
+	font-weight:900;
+	
+	
+}
+.contact-content-wrapper p{
+	font-size:1em;
+	color:#B2AAA0;
+	line-height:0;
+	
+	
+}
+
+.body-wrapper{
+	
+	width:100%;
+	height:100%;
+	float:left;
+	background:#F4F4F4;
+	padding:1.25em 0;
+	
+}
+
+.contact-content-wrapper{
+	width:60%;
+	margin-left:20%;
+	float:left;
+	
+	
+	
+}
+.contact-image {
+	width:75%;
+	margin-left:0;
+	float:left;
+	
+	
+}
+.contact-image img{
+	width:100%;
+	border:#BDB3A8 solid thin;
+	
+}
+
+.contact-title {
+	width: 23%;
+	margin-left:2%;
+
+	float:left;
+	
+}
+
+.contact {
+	width: 23%;
+	margin-left:2%;
+	float:left;
+}

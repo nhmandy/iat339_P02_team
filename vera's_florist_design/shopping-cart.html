@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width">
+<title>Vera Florist Design</title>
+<link href="css/mainstyle.css" rel="stylesheet" tyle="text/css">
+<link href="css/home.css" rel="stylesheet" tyle="text/css">
+<link href="css/shopping-cart.css" rel="stylesheet" tyle="text/css">
+<link href="css/grid.css" rel="stylesheet" tyle="text/css">
+
+<script src="js/event.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Palanquin:200,400,600,900' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<!--header buttons-->
+<div class="grid-col-10of10 header">
+
+	<div class="header-button" onClick="signupOpen()">
+    <p>Sign Up</p></div>
+    
+    <div class="header-button" onClick="loginOpen()">
+    <p>Log In</p></div>
+    
+    <div class="cart-icon">
+    <a href="shopping-cart.html">
+    <img src="images/shopping-cart2.png">
+    </a></div>
+</div>
+
+<!--header logo-->
+<div class="grid-col-10of10 logo">
+	<a href="index.html"><img src="images/logo1.png"></a>
+</div>
+
+
+
+<!--sign up page-->
+<div id="sign-up-wrapper" class="grid-col-5of10">
+    <!--sign up pop up header-->
+	<div class="grid-col-10of10 popup-header">
+    <p>SIGN-UP PAGE</p>
+    </div>
+    <!--sign up pop up body content-->
+    <div class="grid-col-10of10 popup-content">
+    
+   		 <div class="field-wrapper">
+    	<input type="email" id="form-subject" placeholder="Email">
+    
+        <input type="password" id="form-subject" placeholder="Set Password">
+        
+        <input type="password" id="form-subject" placeholder="Confirm Password">
+        
+        <input type="address" id="form-subject" placeholder="Address">
+        
+        <input type="city" id="form-subject" placeholder="City">
+        
+        <input type="province" id="form-subject" placeholder="Province">
+        
+        <input type="country" id="form-subject" placeholder="Country">
+        
+         </div>
+    
+    </div>
+    <!--sign up pop up footer-->
+    <div class="grid-col-5of10 signup-footer">
+        <!--sign up pop up button-->   	
+        <div id="signup-cancle">
+        <p2 onClick="signupClose()">CANCLE</p2>
+        </div>
+        <div id="signup-signup">
+        <p1 onClick="signupClose()">SIGN UP</p1>
+        </div>
+    </div>
+</div>
+
+
+<!--log in page-->
+<div id="log-in-wrapper" class="grid-col-3of10">
+<!--log in pop up header-->
+	<div class="grid-col-10of10 popup-header">
+    <p>LOG IN PAGE</p>
+    </div>
+    <!--log in pop up body content-->
+    <div class="grid-col-10of10 popup-content">
+    
+    	<div class="field-wrapper">
+    	<input type="email" id="form-subject" placeholder="Email">
+    
+        <input type="password" id="form-subject" placeholder="Password">
+        
+         </div>
+         
+         <div class="forgot-password">
+         <p>Forgot password?</p>
+         </div>
+         
+    </div>
+  
+    <!--log in pop up footer-->
+    <div class="grid-col-10of10 login-footer">
+        <!--log in pop up button-->   	
+        <div id="login-cancle">
+        <p2 onClick="loginClose()">CANCLE</p2>
+        </div>
+        <div id="login-login">
+        <p1  onClick="loginClose()">LOG IN</p1>
+        </div>
+    </div>
+	
+</div>
+
+<!--navigation-->
+<div class="grid-col-9of10 main-nav">
+	<a href="about.html" class="nav-button"><p3>About</p3></a>
+    <div class="nav-button" onClick="submenuOpen()" onmouseout="submenuClose()"><p3>Shop Online</p3></div>
+    <a href="event.html" class="nav-button"><p3>Event</p3></a>
+    <a href="delivery.html" class="nav-button"><p3>Delivery</p3></a>
+    <a href="contact.html" class="nav-button"><p3>Contact</p3></a>    
+</div>
+
+
+<!--submenu-->
+<div id="sub-menu" class="grid-col-10of10" onmouseover="submenuOpen()" onmouseout="submenuClose()">
+
+	<div class="sub-menu-colum">
+	<a href="category.html"><h1>Popular</h1></a>
+	<a href="category.html"><h1>Holidays</h1></a></div>
+
+	<div class="sub-menu-colum">
+	<a href="category.html"><h1>Anniversary</h1></a>
+	<a href="category.html"><h1>Birthday</h1></a></div>
+
+	<div class="sub-menu-colum">
+	<a href="category.html"><h1>Wedding</h1></a>
+	<a href="category.html"><h1>Romance</h1></a></div>
+
+	<div class="sub-menu-colum">
+	<a href="category.html"><h1>Seasonal</h1></a>
+	<a href="category.html"><h1>Thank You</h1></a></div>
+</div>
+
+
+
+
+<div id="check-out-box" class="grid-col-5of10">
+	<div class="bill-header">
+    	<p>BILL INFORMATION</p>
+    </div>
+	<div class="bill-inf">
+    	<h1>Payer's Information</h1>
+    	<input type="text" id="form-subject" placeholder="First Name">
+    
+        <input type="text" id="form-subject" placeholder="Last Name">
+        
+        <img src="images/credit-card-icons.png">
+        
+        <input type="number" id="form-subject" placeholder="Card Number">
+        
+        <input type="text" id="form-subject" placeholder="Expire Date (MM/YY)">
+    
+        <h1>Date To Deliver</h1>
+        <input type="date" name="Date to be delivered" id="form-subject" placeholder="Date to deliver">
+    
+    </div>
+    
+    <div class="bill-inf">
+    	<h1>Receiver's Information</h1>
+    	<input type="text" id="form-subject" placeholder="First Name">
+        
+        <input type="text" id="form-subject" placeholder="Last Name">
+        
+         <input type="text" id="form-subject" placeholder="Delivered Address">
+        <h1>Comments</h1>
+         <textarea id="form-subject" class="comments-field" placeholder="Leave a message to us!"></textarea>
+    
+    
+    </div>
+
+
+
+    <!--bill pop up footer-->
+    <div class="grid-col-10of10 bill-footer">
+        <!--bill pop up button-->   	
+        <div id="bill-cancle">
+        <p1 onClick="billClose()">CANCLE</p1>
+        </div>
+        <a href="proceed.html">
+        <p2  onClick="billClose()">PAY</p2>
+       </a>
+    </div>
+
+
+
+
+</div>
+
+
+
+<div class="body-wrapper">
+
+
+	<!--chart-->
+	<div class="shopping-cart">
+	<h1>Cart Summary</h1>
+
+
+	<table width="100%" height="150px">
+  	<tr>
+    <td><p1>Product name</p1></td>
+    <td><p1>Price</p1></td>
+    <td><p1>Quantity</p1></td>
+    <td><p1>Subtotal</p1></td>
+  	</tr>
+    
+  	<tr>
+    	<td>
+        <img src="images/product1.jpg">
+        <div class="product-title">
+        <p2>Sweet Surprises</p2></div>
+        </td>
+    	<td><p2>25.00CAD</p2></td>
+    	<td>
+    	<div id="select">
+  		<select>
+  			<option value="x1">1</option>
+ 	 		<option value="x2">2</option>
+  			<option value="x3">3</option>
+  			<option value="x4">4</option>
+  		</select> 
+  		</div>
+    	<p3>remove</p3>
+    	</td>
+    	<td><p4>25.00CAD</p4></td>
+  	</tr>
+  
+  
+    <tr>
+    	<td>
+         <img src="images/product2.jpg">
+         <div class="product-title">
+         <p2>Festive Big Hug</p2>
+         </div>
+        </td>
+    	<td><p4>35.00CAD</p4></td>
+    	<td>
+    	<div id="select">
+  		<select>
+  			<option value="x1">1</option>
+  			<option value="x2">2</option>
+  			<option value="x3">3</option>
+  			<option value="x4">4</option>
+  		</select> 
+  		</div>
+    	<p3>remove</p3></td>
+    	<td><p4>35.00CAD</p4></td>
+ 	 </tr>
+</table>
+
+	<div id="price-inf"><p5>Subtotal&nbsp;&nbsp;&nbsp;60.00 CAD</h5></div>
+	<div id="price-inf"><p5>PST-BC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.20 CAD</p5></div>
+	<div id="price-inf"><p5>GST-BC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.00 CAD</p5></div>
+	<div id="price-inf"><p5>Order Total&nbsp;&nbsp;&nbsp;67.20 CAD</p5></div>
+
+	<div class="check-out-button">
+    <p6 onClick="billOpen()">Check Out</p6></div>
+
+
+
+	</div>
+
+
+
+
+</div>
+
+
+<!--footer-->
+<div class="grid-col-10of10 footer">
+
+
+
+	<!--social media-->
+	<div class="social-media-wrapper">
+	<div class="social-media">
+    <img src="images/facebook-icon.png"></div>
+	<div class="social-media">
+    <img src="images/twitter-icon.png"></div>
+	<div class="social-media">
+    <img src="images/instagram-icon.png"></div>
+	</div>
+
+	<!--footer nav-->
+	<div class="footer-nav">
+	<div id="footer-content"><h1>Our Story</h1></div>
+	<div id="footer-content"><h1>Careers</h1></div>
+	<div id="footer-content"><h1>Contact Us</h1></div>
+	<div id="footer-content"><h1>Private Policy</h1></div>
+	<div id="footer-content"><h1>Terms of Service</h1></div>
+	</div>
+
+
+	<!--contact form -->
+	<div class="contact-form">
+
+	</div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
