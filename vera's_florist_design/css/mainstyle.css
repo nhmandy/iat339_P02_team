@@ -14,61 +14,12 @@ body{
 }
 
 a{
-	
+
 	text-decoration:none;
 	
 }
-.grid-col-1of10{
-	
-	
-	width:10%;
-	float:left;
-	
-}
-.grid-col-2of10{
-	
-	width:20%;
-	float:left;
-	
-}
-.grid-col-3of10{
-	
-	width:30%;
-	float:left;
-	
-}
-.grid-col-5of10{
-	
-	width:50%;
-	float:left;
-	
-}
-.grid-col-6of10{
-	
-	width:60%;
-	float:left;
-	
-}
-.grid-col-8of10{
-	
-	width:80%;
-	float:left;
-	
-}
-.grid-col-9of10{
-	
-	width:90%;
-	float:left;
-	
-}
-.grid-col-10of10{
-	
-	width:100%;
-	float:left;
 
-	
-	
-}
+
 
 h1{
 	
@@ -85,6 +36,9 @@ h1:hover{
 
 	
 }
+
+
+
 p{
 	
 	font-size:1em;
@@ -276,7 +230,7 @@ p3:hover,focused,active{
 }
 
 .nav-button{
-	width:20%;
+	width:25%;
 	float:left;
 	text-align:center;
 	
@@ -304,31 +258,31 @@ p3:hover,focused,active{
 .footer{
 	
 	background:#F7BDA3;
+	padding-bottom: 1em;
 	
 	
 }
 
 .contact-form{
 	
-	width:55%;
-	height:150px;
-	float:left;
-	background:pink;
+	margin-right:5em;
+	margin-bottom:5%;
+	float:right;
+	
 	
 }
 
 .social-media-wrapper{
 	width:95%;
-	margin-left:4%;
-	margin-top:1%;
-	margin-bottom:1%;
+	margin-left:4em;
+	
 	float:left;
 	
 }
 
 .footer-nav{
 	width:35%;
-	margin-left:5%;
+	margin-left:5em;
 	margin-bottom:5%;
 	float:left;
 	
@@ -336,10 +290,14 @@ p3:hover,focused,active{
 }
 #footer-content{
 	width:100%;
-	padding-top:2%;
 	display: inline-block;
 	cursor:default;
 	
+}
+
+#footer-content h1{
+	font-weight: bold;
+	margin-top: 1em;
 }
 
 .social-media{
@@ -347,7 +305,7 @@ p3:hover,focused,active{
 	height:30px;
 	margin-left:10px;
 	margin-right:20px;
-	margin-top:2%;
+	margin-top:1em;
 	float:left;
 		
 }
@@ -400,4 +358,52 @@ input[type=email],[type=password],[type=confirm],[type=address],[type=city],[typ
 	color:#b2aaa1;
 }
 
+.contact-form input[type=email]{
+    font-size:1em;
+	font-weight:lighter;
+	width:99%;;
+	height:1.8em;
+	float:left;
+    margin:0;
+	padding-left:1%;
+	background: white;
+	border: 1px solid white;
+	color:#b2aaa1;
+}
+
+.contact-form textarea{
+    font-size:1em;
+	font-weight:lighter;
+	max-width:99%;
+	width:99%;
+	height: 7em;
+	float:left;
+	margin-top:1em;
+	padding-left:1%;
+	background: white;
+	border: 1px solid white;
+	color:#b2aaa1;
+}
+
+.contact-form button{
+    font-size:1em;
+	font-weight:lighter;
+	width:20%;
+	height:2em;
+	float:right;
+	margin-top:1em;
+	background: white;
+	border: 1px solid white;
+	color:#b2aaa1;
+	cursor:pointer;
+}
+
+.contact p{
+	padding: 0;
+}
+
+.contact-title h1{
+	font-weight: bold;
+	margin: 1em 0;
+}
 
