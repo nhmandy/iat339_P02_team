@@ -1,6 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
+.body-wrapper h1{
+	
+	color:#b2aaa1;
+	font-size:1.5em;
+	font-weight:bolder;
+	
+}
+.body-wrapper p{
+	
+	color:#b2aaa1;
+	font-size:1em;
+	font-weight:lighter;
+	line-height:1.4em;
+	
+}
 
+.delivery-wrapper{
+	
+	margin: 1em 0;
+
+}
 
 .body-wrapper{
 	
@@ -8,56 +28,48 @@
 	height:100%;
 	float:left;
 	background:#F4F4F4;
-	padding:1.25em 0;
-	
-	
 	
 }
-.delivery-wrapper{
-	
-	width:60%;
-	margin-left:20%;
-	
-	
-}
-.delivery-wrapper h1{
-	
-	font-size:1.5em;
-	color:#B2AAA0;
-	
-	
-}
-.delivery-wrapper p{
-	
-	font-size:1em;
-	color:#B2AAA0;
-	
-	
-}
-
 
 .delivery-image {
-	
-	width:100%
-	background:#CCC;
-	
+	height: 300px;
+	padding: 1em;
 
-	
 }
 
 .delivery-image img{
 	width:100%;
-	border:#BDB3A8 solid thin;
-	opacity: 0.8;
 	
 }
 
-.delivery-title {
+.delivery-title{
+
+	padding:0;
+	margin-bottom:0.1em;
+
+
 	
-	margin-bottom: 2%;
+	
+}
+.delivery{
+	padding:0;
+	margin:0;
+	
+	
 }
 
-.delivery {
-	
-	margin-bottom: 2%;
+.blank {
+
+}
+
+.delivery-title h1 {
+	margin-top: 1em;
+	padding-left: 0.6em;
+}
+
+
+h2 {
+	font-size: 3em;
+	color:#b2aaa1;
+	font-weight:normal;
 }
