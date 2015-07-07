@@ -1,0 +1,44 @@
+.grid-col-1of10{
+	width:10%;
+	float:left;
+}
+.grid-col-2of10{
+	width:20%;
+	float:left;
+}
+.grid-col-3of10{
+	width:30%;
+	float:left;
+}
+.grid-col-4of10{
+	width:40%;
+	float:left;
+}
+.grid-col-5of10{
+	width:50%;
+	float:left;
+}
+.grid-col-6of10{
+	width:60%;
+	float:left;
+}
+.grid-col-7of10{
+	width:70%;
+	float:left;
+}
+
+.grid-col-8of10{
+	width:80%;
+	float:left;
+}
+
+.grid-col-9of10{
+	width:90%;
+	float:left;
+}
+.grid-col-10of10{
+	width:100%;
+	float:left;
+}
+
+

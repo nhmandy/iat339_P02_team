@@ -2,11 +2,10 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <title>Vera Florist Design</title>
-<link href="css/mainstyle.css" rel="stylesheet" tyle="text/css">
-<link href="css/home.css" rel="stylesheet" tyle="text/css">
-<link href="css/event.css" rel="stylesheet" tyle="text/css">
-<link href="css/grid.css" rel="stylesheet" tyle="text/css">
-<link href="css/gridMain.css" rel="stylesheet" tyle="text/css">
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
+<link href="css/event.css" rel="stylesheet" type="text/css">
+<link href="css/gridMain.css" rel="stylesheet" type="text/css">
 
 <script src="js/event.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Palanquin:200,400,600,900' rel='stylesheet' type='text/css'>
@@ -17,27 +16,28 @@
 <!--header buttons-->
 <div class="grid-col-10of10 header">
 
-	<div class="header-button" onClick="signupOpen()">
-    <p>Sign Up</p></div>
-    
-    <div class="header-button" onClick="loginOpen()">
-    <p>Log In</p></div>
+	<div class="header-button">
+    <input type="button" value="Sign Up" onClick="signupOpen()">
+	</div>
+    <div class="header-button">
+     <input type="button" value="Log In" onClick="loginOpen()">
+    </div>
     
     <div class="cart-icon">
     <a href="shopping-cart.html">
-    <img src="images/shopping-cart2.png">
+    <img src="images/shopping-cart2.png" alt="shopping cart">
     </a></div>
 </div>
 
 <!--header logo-->
 <div class="grid-col-10of10 logo">
-	<a href="index.html"><img src="images/logo1.png"></a>
+	<a href="index.html"><img src="images/logo1.png" alt="logo"></a>
 </div>
 
 
 
 <!--sign up page-->
-<div id="sign-up-wrapper" class="grid-col-5of10">
+<div id="sign-up-wrapper" class="grid-col-5of10 signup">
     <!--sign up pop up header-->
 	<div class="grid-col-10of10 popup-header">
     <p>SIGN-UP PAGE</p>
@@ -66,8 +66,8 @@
     <!--sign up pop up footer-->
     <div class="grid-col-5of10 signup-footer">
         <!--sign up pop up button-->   	
-        <div id="signup-cancle">
-        <p2 onClick="signupClose()">CANCLE</p2>
+        <div id="signup-cancel">
+        <p2 onClick="signupClose()">CANCEL</p2>
         </div>
         <div id="signup-signup">
         <p1 onClick="signupClose()">SIGN UP</p1>
@@ -77,7 +77,7 @@
 
 
 <!--log in page-->
-<div id="log-in-wrapper" class="grid-col-3of10">
+<div id="log-in-wrapper" class="grid-col-3of10 login">
 <!--log in pop up header-->
 	<div class="grid-col-10of10 popup-header">
     <p>LOG IN PAGE</p>
@@ -101,8 +101,8 @@
     <!--log in pop up footer-->
     <div class="grid-col-10of10 login-footer">
         <!--log in pop up button-->   	
-        <div id="login-cancle">
-        <p2 onClick="loginClose()">CANCLE</p2>
+        <div id="login-cancel">
+        <p2 onClick="loginClose()">CANCEL</p2>
         </div>
         <div id="login-login">
         <p1  onClick="loginClose()">LOG IN</p1>
@@ -112,12 +112,12 @@
 </div>
 
 <!--navigation-->
-<div class="grid-col-9of10 main-nav">
+<div class="grid-col-1of10 nav-blank">&nbsp;</div>
+<div class="grid-col-8of10 main-nav">
 	<a href="about.html" class="nav-button"><p3>About</p3></a>
     <div class="nav-button" onClick="submenuOpen()" onmouseout="submenuClose()"><p3>Shop Online</p3></div>
     <a href="event.html" class="nav-button"><p3>Event</p3></a>
-    <a href="delivery.html" class="nav-button"><p3>Delivery</p3></a>
-    <a href="contact.html" class="nav-button"><p3>Contact</p3></a>    
+    <a href="delivery.html" class="nav-button"><p3>Delivery</p3></a> 
 </div>
 
 
@@ -146,123 +146,136 @@
 <div class="body-wrapper">
 
     <!--canada day event-->
-	<div class="grid-col-6of10 event-wrapper">
-    	<div class="event-pic1">
-        	<img src="images/coil.png">
-        </div>
+	<div class="grid-col-10of10 event-wrapper">
+    	<div class="grid-col-2of10 event-blank">
+        &nbsp;</div>
+	    
         
-        <div class="event-inf">
+        <div class="grid-col-6of10 event-container">
+    
+        <!--picture container-->
+    	   <div class="grid-col-5of10 event-pic1">
+        	   <img src="images/coil.png" alt="canada day">
+            </div>
+       
+  
+        <!--description container-->
+            <div class="grid-col-5of10 event-inf">
         
-             <div class="upcoming">
-            <h3>UPCOMING</h3>
-            </div>
+                <div class="upcoming">
+                    <h3>UPCOMING</h3>
+                </div>
             
             
-        	<div class="event-paragraph1">
-           
+        	    <div class="event-paragraph1">
+                    <h1>Canada Day</h1>
+                </div>
             
-            <h1>Canada Day</h1>
-            </div>
+                <div class="event-paragraph2">
+                    <p1>Date: July 1, 2015</p1>
+                </div>
+                <div class="event-paragraph3">
+                    <p2>Enjoy 50% OFF on discounted items and celebrate for Canada Day</p2>
+                </div>
+                <div class="event-paragraph4">
+                    <a href="category.html">
+                    <h2>SHOP NOW</h2></a>
+                </div>
             
-            <div class="event-paragraph2">
-            <p1>Date: July 1, 2015</p1>
-            </div>
-            <div class="event-paragraph3">
-            <p2>Enjoy 50% OFF on discounted items and celebrate for Canada Day</p2>
-            </div>
-            <div class="event-paragraph4">
-            <a href="category.html">
-            <h2>SHOP NOW</h2>
-            </a>
-            </div>
-            
+            </div><!--description ends-->
         </div>
   
-    </div>
+    </div><!--canada day event ends-->
 
    <!-- event2-->
-	<div class="grid-col-6of10 event-wrapper">
-    	<div class="event-pic2">
-        	<img src="images/coil.png">
-        </div>
+	<div class="grid-col-10of10 event-wrapper">
+    	<div class="grid-col-2of10 event-blank">&nbsp;</div>
+        <div class="grid-col-6of10 event-container">
+    	    <div class="grid-col-5of10 event-pic2">
+        	   <img src="images/coil.png" alt="father's day">
+            </div>
         
-        <div class="event-inf">
-        	<div class="event-paragraph1">
-            <h1>Father's Day</h1>
-            </div>
+            <div class="grid-col-5of10 event-inf">
+        	   <div class="event-paragraph1">
+                    <h1>Father's Day</h1>
+                </div>
             
-            <div class="event-paragraph2">
-            <p1>Date: June 21, 2015</p1>
-            </div>
-            <div class="event-paragraph3">
-            <p2>Enjoy 50% OFF on discounted items and celebrate for Father's Day</p2>
-            </div>
-            <div class="event-paragraph4">
-            <a href="category.html">
-            <h2>SHOP NOW</h2>
-            </a>
-            </div>
+                <div class="event-paragraph2">
+                    <p1>Date: June 21, 2015</p1>
+                </div>
+                <div class="event-paragraph3">
+                    <p2>Enjoy 50% OFF on discounted items and celebrate for Father's Day</p2>
+                </div>
+                <div class="event-paragraph4">
+                    <a href="category.html">
+                    <h2>SHOP NOW</h2></a>
+                </div>
             
-        </div>
+            </div>
   
-    </div>
+        </div>
+    </div><!--end event2-->
     
     
     
     <!--event3-->
-	<div class="grid-col-6of10 event-wrapper">
-    	<div class="event-pic3">
-        	<img src="images/coil.png">
-        </div>
-        
-        <div class="event-inf">
-        	<div class="event-paragraph1">
-            <h1>Thank You</h1>
+	<div class="grid-col-10of10 event-wrapper">
+    	<div class="grid-col-2of10 event-blank">&nbsp;</div>
+        <div class="grid-col-6of10 event-container">
+    	   <div class="grid-col-5of10 event-pic3">
+        	   <img src="images/coil.png" alt="thank you event">
             </div>
+      
+            <div class="grid-col-5of10 event-inf">
+        	   <div class="event-paragraph1">
+                    <h1>Thank You</h1>
+                </div>
             
             <div class="event-paragraph2">
-            <p1>Date: to be selected</p1>
+                <p1>Date: to be selected</p1>
             </div>
             <div class="event-paragraph3">
-            <p2>Enjoy 10% OFF on discounted item, send a "Thank You" gift today!</p2>
+                <p2>Enjoy 10% OFF on discounted item, send a "Thank You" gift today!</p2>
             </div>
             <div class="event-paragraph4">
-            <a href="category.html">
-            <h2>SHOP NOW</h2>
-            </a>
+                <a href="category.html">
+                <h2>SHOP NOW</h2></a>
             </div>
             
+            </div>
         </div>
   
-    </div>
+    </div><!--end event3-->
 
 
    <!--event4-->
-	<div class="grid-col-6of10 event-wrapper">
-    	<div class="event-pic4">
-        	<img src="images/coil.png">
-        </div>
-        
-        <div class="event-inf">
-        	<div class="event-paragraph1">
-            <h1>Wedding</h1>
+	<div class="grid-col-10of10 event-wrapper">
+    	<div class="grid-col-2of10 event-blank">&nbsp;</div>
+        <div class="grid-col-6of10 event-container">
+    	    <div class="grid-col-5of10 event-pic4">
+        	   <img src="images/coil.png" alt="wedding event">
+            </div>
+      
+            <div class="grid-col-5of10 event-inf">
+        	    <div class="event-paragraph1">
+                <h1>Wedding</h1>
             </div>
             
             <div class="event-paragraph2">
-            <p1>Date: to be selected</p1>
+                <p1>Date: to be selected</p1>
             </div>
             <div class="event-paragraph3">
-            <p2>Enjoy 10% OFF on discounted items and decorate your wedding feast today!</p2>
+                <p2>Enjoy 10% OFF on discounted items and decorate your wedding feast today!</p2>
             </div>
             <div class="event-paragraph4">
-            <a href="category.html">
-            <h2>SHOP NOW</h2>
-            </a>
+                <a href="category.html">
+                <h2>SHOP NOW</h2></a>
             </div>
             
+            </div>
         </div>
   
-    </div>
+    </div><!--end event4-->
 
 
 </div>
@@ -273,40 +286,82 @@
 
 
 
+
 <!--footer-->
 <div class="grid-col-10of10 footer">
 
 
+    <div class="footer-wrapper">
 
-	<!--social media-->
-	<div class="social-media-wrapper">
-	<div class="social-media">
-    <img src="images/facebook-icon.png"></div>
-	<div class="social-media">
-    <img src="images/twitter-icon.png"></div>
-	<div class="social-media">
-    <img src="images/instagram-icon.png"></div>
-	</div>
+        <div class="grid-col-1of3 socialmedia-nav-wrapper">
+    <!--social media-->
+        <div class="social-media-wrapper">
 
-	<!--footer nav-->
-	<div class="footer-nav">
-	<div id="footer-content"><h1>Our Story</h1></div>
-	<div id="footer-content"><h1>Careers</h1></div>
-	<div id="footer-content"><h1>Contact Us</h1></div>
-	<div id="footer-content"><h1>Private Policy</h1></div>
-	<div id="footer-content"><h1>Terms of Service</h1></div>
-	</div>
+           <div class="social-media">
+                <img src="images/facebook-icon.png" alt="facebook icon">
+            </div>
+           <div class="social-media">
+                <img src="images/twitter-icon.png" alt="twitter icon">
+            </div>
+           <div class="social-media">
+                <img src="images/instagram-icon.png" alt="instagram icon">
+            </div>
+       </div>
+   
 
+    <!--footer nav-->
+       <div class="grid-col-3of3 footer-nav">
+       <div id="footer-content"><h1>Our Story</h1></div>
+       <div id="footer-content"><h1>Careers</h1></div>
+    
+       <div id="footer-content"><h1>Private Policy</h1></div>
+       <div id="footer-content"><h1>Terms of Service</h1></div>
+       </div>
+        </div>
+   
 
-	<!--contact form -->
-	<div class="contact-form">
+<div class="grid-col-1of3 store-hours">
 
-	</div>
+        <h1>Store Hours</h1>
+ 
+    <div class="store-hours-content">
+        
+            <p>Monday 10:00am - 6:00pm</p>
 
+            <p>Tuesday 10:00am - 6:00pm</p>
+
+            <p>Wednesday 10:00am - 6:00pm</p>
+
+            <p>Thursday 10:00am - 6:00pm</p>
+
+            <p>Friday 10:00am - 6:00pm</p>
+
+            <p>Saturday 10:00am - 6:00pm</p>
+
+            <p>Sunday Closed</p>
+        
+    </div>
 </div>
 
+    <!--contact form -->
+    <div class="grid-col-1of3 contact-form">
+    
+            <div class="contact-title">
+                <h1>Contact Us</h1>
+            </div>
+    
+            <input type="email" id="form-subject" placeholder="Email">
+            
+            <textarea type="text" id="form-subject" placeholder="Send us a message!"></textarea>
+         
+            <button type="button" id="form-subject">Send</button>
+    
 
-
+    </div>
+    
+    </div>
+   
+</div><!--footer end-->
 
 
 </body>

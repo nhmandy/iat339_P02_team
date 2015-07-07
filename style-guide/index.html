@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<head>
+<title>IAT339 Vera's Florist Shop style guide</title>
+<meta name="viewport" content="width=device-width">
+<link href="css/main.css" rel='stylesheet' type='text/css'>
+<link href="css/grid.css" rel='stylesheet' type='text/css'>
+<!--font source-->
+<link href='http://fonts.googleapis.com/css?family=Palanquin:200,400,600,900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class="navigation-wrapper">
+
+
+	<div class="navigation-button">
+		<a href="#interactive-elements"><h1>Interactive Elements</h1></a>
+	</div>
+	<div class="navigation-button">
+		<a href="#text-styling"><h1>Text Styling</h1></a>
+	</div>
+	<div class="navigation-button">
+		<a href="#combined-elements"><h1>Combined Elements</h1></a>
+	</div>
+	<div class="navigation-button">
+		<a href="#image-source"><h1>Image Source</h1></a>
+	</div>
+
+</div>
+
+<div id="interactive-elements" class="grid-col-5of10 body-content">
+	<h1>Navigation Button</h1>
+    <p>CSS selector:</p>
+    <p1>.nav-button</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;a href="#interactive-elements" class="nav-button">About&lt;/a></p2>
+    <h1>Rendered Elements</h1>
+    <div class="nav-button"><p3>About</p3></div>
+    <div class="nav-button"><p3>Shop Online</p3></div>
+    <div class="nav-button"><p3>Event</p3></div>
+    <div class="nav-button"><p3>Delivery</p3></div>
+
+</div>
+
+
+<div class="grid-col-5of10 body-content">
+	<h1>Intext link</h1>
+    <p>CSS selector:</p>
+    <p1>.nav-button</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;a href="#interactive-elements" class="nav-button">About&lt;/a></p2>
+    <h1>Rendered Elements</h1>
+    <p>There is a <p4>link</p4> here</p>
+</div>
+
+<div class="grid-col-5of10 body-content">
+	<h1>Header Button</h1>
+    <p>CSS selector:</p>
+    <p1>.header-button input[type='button']</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;input type='button' value='SIGN UP'></p2><br>
+    <p2>&lt;input type='button' value='LOG IN'></p2>
+    <h1>Rendered Elements</h1>
+    <div class="header-button">
+   		<input type='button' value='SIGN UP'>
+ 
+    	<input type='button' value='LOG IN'>
+	</div>
+
+
+</div>
+
+
+<div class="grid-col-5of10 body-content">
+	<h1>Check Out/Cancel Buttons</h1>
+    <p>CSS selector:</p>
+    <p1>.check-out-button input[type='button']</p1>
+    <p1>.cancel-button input[type='button']</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;input type='button' value='Check Out'></p2><br>
+    <p2>&lt;input type='button' value='CANCEL'></p2>
+    <h1>Rendered Elements</h1>
+    <div class="check-out-button">
+   		<input type='button' value='CHECK OUT'>
+ 	</div>
+ 	<div class="cancle-button">
+    	<input type='button' value='CANCEL'>
+	</div>
+
+
+</div>
+
+
+<div class="grid-col-5of10 body-content">
+	<h1>Text Input Field-Log In/Sign Up</h1>
+    <p>CSS selector:</p>
+    <p1>.field-wrapper input[type='email']</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;input type="email" placeholder='Email'></p2><br>
+    <p2>&lt;input type="password" placeholder='Password'></p2>
+    <h1>Rendered Elements</h1>
+    <div class="field-wrapper">
+    <input type="email" placeholder='Email'><br>
+    <input type="password" placeholder='Password'>
+	</div>
+</div>
+
+
+<div class="grid-col-5of10 body-content">
+	<h1>Text Input Field-Contact Us</h1>
+    <p>CSS selector:</p>
+    <p1>.contact-form input[type='email']</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;input type="email" placeholder='Email'></p2><br>
+    <p2>&lt;textarea type="text" placeholder='Send us a message'>&lt;/textarea>
+    </p2>
+    <h1>Rendered Elements</h1>
+    <div class="field-wrapper">
+    <input type="email" placeholder='Email'><br>
+    <textarea type="password" placeholder='Send us a message!'></textarea>
+	</div>
+</div>
+
+
+
+<div id="text-styling" class="grid-col-5of10 body-content">
+	<h1>Heading</h1>
+    <p>CSS selector:</p>
+    <p1>.about-title h1</p1>
+    <p1>.about-title h2</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;div class="about-title">&lt;h1>Vera Floral Design Studio&lt;/h1>&lt;/div></p2><br>
+
+    <p2>&lt;div class="about-title">&lt;p1>Hello!&lt;/p1>&lt;/div></p2>
+
+    <h1>Rendered Elements</h1>
+    <div class="about-title">
+    	<h1>Vera Floral Design Studio</h1>
+        <p1>Hello!</p1><br>
+    </div>
+
+</div>
+
+
+<div class="grid-col-5of10 body-content">
+	<h1>Paragraph</h1>
+    <p>CSS selector:</p>
+    <p1>.about p1</p1>
+    <h1>Sample Code</h1>
+	<p2>&lt;div class="about">&lt;p1>Vera Floral Design Studio...&lt;/p1>&lt;/div></p2>
+
+    <h1>Rendered Elements</h1>
+    <div class="about">
+        <p1>Vera florist design studio is a unique flower shop inspired to create socially conscious arrangements and living containers. </p1>
+    </div>
+
+</div>
+
+
+<div class="grid-col-5of10 body-content">
+	<h1>Bulleted List</h1>
+    <p>CSS selector:</p>
+    <p1>ul li</p1>
+    <h1>Sample Code</h1>
+	<p2>&lt;ul>&lt;li>list 1&lt;/li>&lt;/ul></p2>
+
+    <h1>Rendered Elements</h1>
+    <div class="list">
+    	<ul>
+    		<li><span>list 1</span></li>
+    		<li><span>list 2</span></li>
+    		<li><span>list 3</span></li>
+    	</ul>
+    	
+    </div>
+
+</div>
+
+
+
+<div class="grid-col-5of10 body-content">
+	<h1>Numbered List</h1>
+    <p>CSS selector:</p>
+    <p1>ol li</p1>
+    <h1>Sample Code</h1>
+	<p2>&lt;ol>&lt;li>list 1&lt;/li>&lt;/ol></p2>
+
+    <h1>Rendered Elements</h1>
+    <div class="list">
+    	<ol>
+    		<li><span>list 1</span></li>
+    		<li><span>list 2</span></li>
+    		<li><span>list 3</span></li>
+    	</ol>
+    	
+    </div>
+
+</div>
+
+
+<div id="combined-elements" class="grid-col-10of10 body-content">
+	<h1>Main Navigation</h1>
+    <p>CSS selector:</p>
+    <p1>.nav-button</p1>
+    <h1>Sample Code</h1>
+    <p2>&lt;a href="#combined-elements" class="nav-button">About&lt;/a></p2><br>
+    <p2>&lt;a href="#combined-elements" class="nav-button">Shop Online&lt;/a></p2><br>
+    <p2>&lt;a href="#combined-elements" class="nav-button">Event&lt;/a></p2><br>
+    <p2>&lt;a href="#combined-elements" class="nav-button">Delivery&lt;/a></p2><br>
+    <p2>&lt;a href="#combined-elements" class="nav-button">Contact&lt;/a></p2>
+    <h1>Rendered Elements</h1>
+    <div class="nav-button"><p3>About</p3></div>
+    <div class="nav-button"><p3>Shop Online</p3></div>
+    <div class="nav-button"><p3>Event</p3></div>
+    <div class="nav-button"><p3>Delivery</p3></div>
+  
+</div>
+
+
+
+<div class="grid-col-10of10 body-content">
+	<h1>Product List</h1>
+    <p>CSS selector:</p>
+    <p1>.grid-col-3of10 category-content item-image</p1>
+    <p1>.grid-col-4of10 category-content item-content</p1>
+    <h1>Rendered Elements</h1>
+    <div class="grid-col-10of10 category-content">
+    	<div class="grid-col-3of10 item-image">
+    		<img src="images/product1.jpg" alt="product1">
+    	</div>
+    	<div class="grid-col-4of10 item-content">
+    		<div id="item-content-wrapper">
+    			<h1>Sweet Surprises</h1>
+    			<p1>Sending a Sweet Surprises is an absolutely charming way to send your warmest sentiments</p1>
+    		</div>
+    		<div id="item-content-wrapper">
+
+    			<p2>25.00CAD</p2>
+    		</div>
+    		<div id="item-content-wrapper">
+    			<input type="button" value='ADD TO CART'>
+    	    </div>
+
+
+    	</div>
+
+    </div>
+
+
+
+    <div class="grid-col-10of10 category-content">
+    	<div class="grid-col-3of10 item-image">
+    		<img src="images/product2.jpg" alt="product2">
+    	</div>
+    	<div class="grid-col-4of10 item-content">
+    		<div id="item-content-wrapper">
+    			<h1>Sweet Surprises</h1>
+    			<p1>Sending a Sweet Surprises is an absolutely charming way to send your warmest sentiments</p1>
+    		</div>
+    		<div id="item-content-wrapper">
+
+    			<p2>25.00CAD</p2>
+    		</div>
+    		<div id="item-content-wrapper">
+    			<input type="button" value='ADD TO CART'>
+    	    </div>
+
+
+    	</div>
+
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="grid-col-10of10 body-content">
+	<h1>Event List</h1>
+    <p>CSS selector:</p>
+    <p1>.grid-col-3of10 event-content .event-image</p1>
+    <p1>.grid-col-4of10 event-content .event-description</p1>
+    <h1>Rendered Elements</h1>
+    <div class="grid-col-10of10 event-content">
+    	<div class="grid-col-3of10 event-image">
+    		<img src="images/coil.png" alt="flower">
+    	</div>
+
+
+    	<div class="grid-col-4of10 event-description">
+ 		
+ 			<div id="upcoming">
+            	<p>UPCOMING</p>
+            </div>
+
+    	 
+    		
+    		<div id="event-content-wrapper">
+    			
+    			<h1>Canada Day</h1>
+    			<p1>Enjoy 50% OFF on discounted items and celebrate for Canada Day</p1>
+    		</div>
+    		<div id="event-content-wrapper">
+
+    			<p2>25.00CAD</p2>
+    		</div>
+    		<div id="event-content-wrapper">
+    			<input type="button" value='ADD TO CART'>
+    	    </div>
+
+
+    	</div>
+
+    </div>
+
+</div>
+
+
+<div id="image-source" class="grid-col-10of10 body-content">
+	<h1>Image Source</h1>
+
+	<a href="http://www.digsdigs.com/photos/mothers-day-flower-decoration-ideas-14.jpg"><p>about1</p></a>
+	<a href="http://static.weddingchicks.com/wp-content/uploads/2014/05/vintage-wedding-decor-ideas.jpg"><p>about2&about3</p></a>
+	
+	<a href="https://s-media-cache-ak0.pinimg.com/736x/ed/d4/b2/edd4b291f16f87a5c51301a75580dc42.jpg"><p>about4</p></a>
+
+	<a href="http://hana-hana.hanatown.net/shohin_img/370/511321.jpg"><p>main_category1</p></a>
+
+	<a href="http://www.vector-eps.com/wp-content/gallery/basket-with-flowers-high-res-images/basket-with-flower2.jpg"><p>main_category2</p></a>
+
+	<a href="http://funkypetals.com/images_inventory/Plant-basket.jpg"><p>main_category3</p></a>
+	<a href="http://takahashi-kaho.hanatown.net/shohin_img/370/613009.jpg"><p>main_category4</p></a>
+
+
+	<a href="http://www.earthseedtobloom.co.uk/abd/images/resizer/image.php/springplanted.png?height=350px&width=350px&cropratio=1:1&image=http://www.earthseedtobloom.co.uk/abd/wp-content/gallery/mothers-day-2012/springplanted.png"><p>product1</p></a>
+	<a href="http://www.alegoo.com/images06/holidays/mothers-day-03/019/mothers-day-plants-14.jpg"><p>product2</p></a>
+
+	
+	<a href="https://mothersdayflowersireland.files.wordpress.com/2012/02/babyflowers17.jpg"><p>product3</p></a>
+	<a href="http://cs621822.vk.me/v621822821/17119/V1BJys0F_kw.jpg"><p>product4</p></a>
+
+
+
+	<a href="http://lib.store.yahoo.net/lib/yhst-94582326164583/cc-icons.png"><p>credit card icons</p></a>
+
+	<a href="https://s-media-cache-ak0.pinimg.com/736x/b8/fe/56/b8fe564fc9e8daa117a211878cb2b919.jpg"><p>delivery</p></a>
+
+	<a href="http://images.mywedding.com/dims3/manipulate/thumbnail/300x0/format/jpg/quality/60/;http://mediastore001.mywedding.com/media/3800f710-643e-11e4-b19b-005056012beb/content"><p>event1</p></a>
+
+	<a href="http://ideasdeeventos.com/wp-content/uploads/2015/02/elegantes-arreglos-florales-estilo-vintage.jpeg"><p>event2</p></a>
+
+	<a href="https://s-media-cache-ak0.pinimg.com/736x/34/5b/97/345b9793dba6318b3c44bc2e629f9104.jpg"><p>event3</p></a>
+	<a href="http://hd4desktop.com/images/b/1920x1080__wedding_bouquet-1231630.jpg"><p>event4</p></a>
+
+
+	<a href="https://wwwthefields.files.wordpress.com/2014/09/img_3843.jpg"><p>home</p></a>
+
+	<a href="http://www.retroeyewear.com/media/wysiwyg/retro/icons/CMS_block_Facebook_like.png"><p>facebook</p></a>
+
+	<a href="http://www.floriza.com.br/assets/images/icon_instagram.png"><p>instagram</p></a>
+
+	<a href="http://dturnquest.com/weightloss/wp-content/themes/turnquest/assets/main/Twitter.png?efbaa0"><p>twitter</p></a>
+
+
+
+
+
+</div>
+
+
+
+
+</body>

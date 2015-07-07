@@ -2,13 +2,10 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <title>Vera Florist Design</title>
-<link href="css/mainstyle.css" rel="stylesheet" tyle="text/css">
-<link href="css/home.css" rel="stylesheet" tyle="text/css">
-<link href="css/about.css" rel="stylesheet" tyle="text/css">
-<!--
-<link href="css/grid.css" rel="stylesheet" tyle="text/css">
--->
-<link href="css/gridMain.css" rel="stylesheet" tyle="text/css">
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
+<link href="css/about.css" rel="stylesheet" type="text/css">
+<link href="css/gridMain.css" rel="stylesheet" type="text/css">
 
 <script src="js/event.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Palanquin:200,400,600,900' rel='stylesheet' type='text/css'>
@@ -19,21 +16,22 @@
 <!--header buttons-->
 <div class="grid-col-10of10 header">
 
-	<div class="header-button" onClick="signupOpen()">
-    <p>Sign Up</p></div>
-    
-    <div class="header-button" onClick="loginOpen()">
-    <p>Log In</p></div>
+	<div class="header-button">
+    <input type="button" value="Sign Up" onClick="signupOpen()">
+	</div>
+    <div class="header-button">
+     <input type="button" value="Log In" onClick="loginOpen()">
+    </div>
     
     <div class="cart-icon">
     <a href="shopping-cart.html">
-    <img src="images/shopping-cart2.png">
+    <img src="images/shopping-cart2.png" alt="shopping cart">
     </a></div>
 </div>
 
 <!--header logo-->
 <div class="grid-col-10of10 logo">
-	<a href="index.html"><img src="images/logo1.png"></a>
+	<a href="index.html"><img src="images/logo1.png" alt="logo"></a>
 </div>
 
 
@@ -42,7 +40,7 @@
 <div id="sign-up-wrapper" class="grid-col-5of10">
     <!--sign up pop up header-->
 	<div class="grid-col-10of10 popup-header">
-    <p>SIGN UP</p>
+    <p>SIGN-UP PAGE</p>
     </div>
     <!--sign up pop up body content-->
     <div class="grid-col-10of10 popup-content">
@@ -66,10 +64,10 @@
     
     </div>
     <!--sign up pop up footer-->
-    <div class="grid-col-5of10 signup-footer">
+    <div class="grid-col-5of10 signup-footer signup">
         <!--sign up pop up button-->   	
-        <div id="signup-cancle">
-        <p2 onClick="signupClose()">CANCLE</p2>
+        <div id="signup-cancel">
+        <p2 onClick="signupClose()">CANCEL</p2>
         </div>
         <div id="signup-signup">
         <p1 onClick="signupClose()">SIGN UP</p1>
@@ -79,10 +77,10 @@
 
 
 <!--log in page-->
-<div id="log-in-wrapper" class="grid-col-3of10">
+<div id="log-in-wrapper" class="grid-col-3of10 login">
 <!--log in pop up header-->
 	<div class="grid-col-10of10 popup-header">
-    <p>LOG IN</p>
+    <p>LOG IN PAGE</p>
     </div>
     <!--log in pop up body content-->
     <div class="grid-col-10of10 popup-content">
@@ -103,8 +101,8 @@
     <!--log in pop up footer-->
     <div class="grid-col-10of10 login-footer">
         <!--log in pop up button-->   	
-        <div id="login-cancle">
-        <p2 onClick="loginClose()">CANCLE</p2>
+        <div id="login-cancel">
+        <p2 onClick="loginClose()">CANCEL</p2>
         </div>
         <div id="login-login">
         <p1  onClick="loginClose()">LOG IN</p1>
@@ -114,7 +112,8 @@
 </div>
 
 <!--navigation-->
-<div class="grid-col-9of10 main-nav">
+<div class="grid-col-1of10 nav-blank">&nbsp;</div>
+<div class="grid-col-8of10 main-nav">
 	<a href="about.html" class="nav-button"><p3>About</p3></a>
     <div class="nav-button" onClick="submenuOpen()" onmouseout="submenuClose()"><p3>Shop Online</p3></div>
     <a href="event.html" class="nav-button"><p3>Event</p3></a>
@@ -143,130 +142,129 @@
 </div>
 
 
-
 <div class="body-wrapper">
 
-
+    <!--about content wrapper-->
+  
+  
     <div class= "about-content-wrapper">
-        <h2>Vera Floral Design Studio</h2>
-        
-    </div>
+       
+       
+       
+        <div class="grid-col-10of10 text-wrapper">
+            <div class="grid-col-10of10 about-title">
+                <h2>Vera Floral Design Studio</h2>
+            </div>
 
 
+		<!--about content-->
+		<div class="grid-col-1of10 blank">
+   		 &nbsp;
+		</div>
 
-<!--about content-->
-<div class="grid-col-1of10 blank">
-    &nbsp;
-</div>
-
-<div class="grid-col-4of10">
+		<div class="grid-col-4of10">
     
 
-	<div class="about-title">
-	<h1>Hello!</h1>
-	</div>
+		  <div class="about-title">
+		      <h1>Hello!</h1>
+		  </div>
     
-	<div class="about">
-	<p>Vera florist design studio is a unique flower shop inspired to create socially conscious arrangements and living containers. We provide services such as viewing products and placing orders online, delivery as required, customizing floral design for certain occasions. The target audience will be general public. It can range from a child grabbing flowers for Mother's day to preparing flower arrangements for weddings.</p> 
-    </div>
+		  <div class="about">
+		      <p>Vera florist design studio is a unique flower shop inspired to create socially conscious arrangements and living containers. We provide services such as viewing products and placing orders online, delivery as required, customizing floral design for certain occasions. The target audience will be general public. It can range from a child grabbing flowers for Mother's day to preparing flower arrangements for weddings.</p> 
+    	   </div>
 
-</div> <!--close first 4of10-->
+		</div> <!--close first 4of10-->
 
-<div class="grid-col-4of10">
+
+		<div class="grid-col-4of10">
     
 
-    <div class="about-title">
-    <h1>Inspiration!</h1>
-    </div>
+    	   <div class="about-title">
+    	       <h1>Inspiration!</h1>
+    	   </div>
     
-    <div class="about">
-    <p>We offer local, urban and ethically traded flowers that cover a wide range of selections. Our company grows plants in a healthy environment that makes flowers unique and appealing. We also offer individually crafted arrangements at an affordable price. The flower shop connects the community and the environment by displaying our beautiful floral design for holiday events and all year round.</p>  
-    </div>
+    	   <div class="about">
+   		       <p>We offer local, urban and ethically traded flowers that cover a wide range of selections. Our company grows plants in a healthy environment that makes flowers unique and appealing. We also offer individually crafted arrangements at an affordable price. The flower shop connects the community and the environment by displaying our beautiful floral design for holiday events and all year round.</p>  
+    	   </div>
+          
 
-</div> <!--close second 4of10-->
+		</div> <!--close second 4of10-->
 
-<div class="grid-col-1of10 blank">
-    &nbsp;
-</div>
+        <div class="grid-col-1of10 blank1">
+                &nbsp;
+        </div>
 
+	    </div> <!--close 10of10 text wrapper-->
+    
+    
+    
+    
+    	<div class="grid-col-2of10 about-image">
+    	<img src="images/about2.jpg" alt="flower with books">
+    
+    	</div>
+    
+     	<div class="grid-col-2of10 about-image">
+    	<img src="images/about3.jpg" alt="flowers">
+    
+    	</div>
+    
+     	<div class="grid-col-2of10 about-image">
+    	<img src="images/about4.jpg" alt="flower crafting">
+    
+    	</div>
+    
+     	<div class="grid-col-4of10 about-image">
+    	<img src="images/about1_1.jpg" alt="flower with basket">
+    	</div>
 
-<!--about image-->
-<div class="grid-col-2of10">
-
-    <div class="about-image">
-        <img src="images/about2.jpg">
-    </div>
-</div> <!--close first image 2of10-->
-
-<div class="grid-col-2of10">
-
-    <div class="about-image">
-        <img src="images/about3.jpg">
-    </div>
-</div> <!--close second image 2of10-->
-
-<div class="grid-col-2of10">
-
-    <div class="about-image">
-        <img src="images/about4.jpg">
-    </div>
-</div> <!--close third image 2of10-->
-
-<div class="grid-col-4of10">
-
-    <div class="about-image">
-        <img src="images/about1.jpg">
-    </div>
-</div> <!--close last image 4of10-->
-
-</div>
-
-
+	</div><!--close about content wrapper-->
 
 
 
 </div>
-
-
 <!--bodywrapper ends-->
-
 
 
 
 <!--footer-->
 <div class="grid-col-10of10 footer">
 
-	<!--social media-->
-    <div class="grid-col-1of3">
 
-	   <div class="social-media-wrapper">
-	       <div class="social-media">
-                <img src="images/facebook-icon.png">
+    <div class="footer-wrapper">
+
+        <div class="grid-col-1of3 socialmedia-nav-wrapper">
+    <!--social media-->
+        <div class="social-media-wrapper">
+
+           <div class="social-media">
+                <img src="images/facebook-icon.png" alt="facebook icon">
             </div>
-	       <div class="social-media">
-                <img src="images/twitter-icon.png">
+           <div class="social-media">
+                <img src="images/twitter-icon.png" alt="twitter icon">
             </div>
-	       <div class="social-media">
-                <img src="images/instagram-icon.png">
+           <div class="social-media">
+                <img src="images/instagram-icon.png" alt="instagram icon">
             </div>
-	   </div>
+       </div>
+   
 
+    <!--footer nav-->
+       <div class="grid-col-3of3 footer-nav">
+       <div id="footer-content"><h1>Our Story</h1></div>
+       <div id="footer-content"><h1>Careers</h1></div>
+      
+       <div id="footer-content"><h1>Private Policy</h1></div>
+       <div id="footer-content"><h1>Terms of Service</h1></div>
+       </div>
+        </div>
+   
 
-	<!--footer nav-->
-	   <div class="footer-nav">
-	   <div id="footer-content"><h1>Our Story</h1></div>
-	   <div id="footer-content"><h1>Careers</h1></div>
-	   <div id="footer-content"><h1>Contact Us</h1></div>
-	   <div id="footer-content"><h1>Private Policy</h1></div>
-	   <div id="footer-content"><h1>Terms of Service</h1></div>
-	   </div>
-    </div>
+<div class="grid-col-1of3 store-hours">
 
-<div class="grid-col-1of3">
-    <div class="contact-title">
         <h1>Store Hours</h1>
-    </div>
-    <div class="contact">
+ 
+    <div class="store-hours-content">
         
             <p>Monday 10:00am - 6:00pm</p>
 
@@ -285,10 +283,9 @@
     </div>
 </div>
 
-
-	<!--contact form -->
-    <div class="grid-col-1of3">
-	   <div class="contact-form">
+    <!--contact form -->
+    <div class="grid-col-1of3 contact-form">
+    
             <div class="contact-title">
                 <h1>Contact Us</h1>
             </div>
@@ -298,11 +295,16 @@
             <textarea type="text" id="form-subject" placeholder="Send us a message!"></textarea>
          
             <button type="button" id="form-subject">Send</button>
-        </div>
+    
 
-	</div>
-
+    </div>
+    
+    </div>
+   
 </div><!--footer end-->
+
+
+
 
 
 

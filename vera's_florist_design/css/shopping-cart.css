@@ -11,7 +11,7 @@
 	
 }
 .shopping-cart h1{
-	font-size:1.9vw;
+	font-size:2vw;
 	color:#B2AAA0;
 	font-weight:900;
 	max-height:1.8vw;
@@ -36,10 +36,10 @@
 	
 }
 .shopping-cart p3{
-	font-size:1.2vw;
+	font-size:1.2hw;
 	color:#c5bdb5;
 	cursor:pointer;
-	max-height:1vw;
+	max-height:1.6vw;
 
 }
 .shopping-cart p5{
@@ -54,7 +54,7 @@
 	
 }
 .shopping-cart p6{
-	font-size:1.2vw;
+	
 	color:white;
 	font-weight:lighter;
 	background:#B2AAA0;
@@ -71,15 +71,7 @@
 	color:#f7bda3;
 
 }
-.shopping-cart{
-	width:60%;
-	margin-left:20%;
-	height:500px;
-	float:left;
-	
-	
-	
-}
+
 table{
 	margin: 2.5vw 0;
 	border-collapse: collapse;
@@ -114,7 +106,7 @@ select{
 #select{
 	
 	width:100%;
-	max-height:1.5vw;
+	max-height:3vw;
 
 
 	
@@ -266,9 +258,9 @@ textarea{
 	
 }
 
-#bill-cancle{
+#bill-cancel{
 	float:left;
-	width:45%;
+	width:50%;
 	text-align:right;
 	margin-right:5%;
 }

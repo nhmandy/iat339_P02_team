@@ -2,11 +2,10 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <title>Vera Florist Design</title>
-<link href="css/mainstyle.css" rel="stylesheet" tyle="text/css">
-<link href="css/home.css" rel="stylesheet" tyle="text/css">
-<link href="css/category.css" rel="stylesheet" tyle="text/css">
-<link href="css/grid.css" rel="stylesheet" tyle="text/css">
-<link href="css/gridMain.css" rel="stylesheet" tyle="text/css">
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
+<link href="css/category.css" rel="stylesheet" type="text/css">
+<link href="css/gridMain.css" rel="stylesheet" type="text/css">
 
 <script src="js/event.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Palanquin:200,400,600,900' rel='stylesheet' type='text/css'>
@@ -17,11 +16,12 @@
 <!--header buttons-->
 <div class="grid-col-10of10 header">
 
-	<div class="header-button" onClick="signupOpen()">
-    <p>Sign Up</p></div>
-    
-    <div class="header-button" onClick="loginOpen()">
-    <p>Log In</p></div>
+	<div class="header-button">
+    <input type="button" value="Sign Up" onClick="signupOpen()">
+	</div>
+    <div class="header-button">
+     <input type="button" value="Log In" onClick="loginOpen()">
+    </div>
     
     <div class="cart-icon">
     <a href="shopping-cart.html">
@@ -31,13 +31,13 @@
 
 <!--header logo-->
 <div class="grid-col-10of10 logo">
-	<a href="index.html"><img src="images/logo1.png"></a>
+	<a href="index.html"><img src="images/logo1.png" alt="logo"></a>
 </div>
 
 
 
 <!--sign up page-->
-<div id="sign-up-wrapper" class="grid-col-5of10">
+<div id="sign-up-wrapper" class="grid-col-5of10 signup">
     <!--sign up pop up header-->
 	<div class="grid-col-10of10 popup-header">
     <p>SIGN-UP PAGE</p>
@@ -66,8 +66,8 @@
     <!--sign up pop up footer-->
     <div class="grid-col-5of10 signup-footer">
         <!--sign up pop up button-->   	
-        <div id="signup-cancle">
-        <p2 onClick="signupClose()">CANCLE</p2>
+        <div id="signup-cancel">
+        <p2 onClick="signupClose()">CANCEL</p2>
         </div>
         <div id="signup-signup">
         <p1 onClick="signupClose()">SIGN UP</p1>
@@ -77,7 +77,7 @@
 
 
 <!--log in page-->
-<div id="log-in-wrapper" class="grid-col-3of10">
+<div id="log-in-wrapper" class="grid-col-3of10 login">
 <!--log in pop up header-->
 	<div class="grid-col-10of10 popup-header">
     <p>LOG IN PAGE</p>
@@ -101,8 +101,8 @@
     <!--log in pop up footer-->
     <div class="grid-col-10of10 login-footer">
         <!--log in pop up button-->   	
-        <div id="login-cancle">
-        <p2 onClick="loginClose()">CANCLE</p2>
+        <div id="login-cancel">
+        <p2 onClick="loginClose()">CANCEL</p2>
         </div>
         <div id="login-login">
         <p1  onClick="loginClose()">LOG IN</p1>
@@ -112,7 +112,8 @@
 </div>
 
 <!--navigation-->
-<div class="grid-col-9of10 main-nav">
+<div class="grid-col-1of10 nav-blank">&nbsp;</div>
+<div class="grid-col-8of10 main-nav">
 	<a href="about.html" class="nav-button"><p3>About</p3></a>
     <div class="nav-button" onClick="submenuOpen()" onmouseout="submenuClose()"><p3>Shop Online</p3></div>
     <a href="event.html" class="nav-button"><p3>Event</p3></a>
@@ -143,18 +144,34 @@
 
 
 
+	<div id="image-pop" onClick="imageClose()">
+    <img src="images/product1.jpg" alt="blue basket">
+    </div>
+    <div id="image-pop2" onClick="image2Close()">
+    <img src="images/product4.jpg" alt="orange basket">
+    </div>
+    <div id="image-pop3" onClick="image3Close()">
+    <img src="images/product3.jpg" alt="pink basket">
+    </div>
+    <div id="image-pop4" onClick="image4Close()">
+    <img src="images/product2.jpg" alt="purple basket">
+    </div>
 <!--body wrapper-->
 <div class="body-wrapper">
 
-
+    
     <!--1st item-->
+    
+    <div class="category-wrapper">
+      
+   <div class="grid-col-2of10 blank-category">&nbsp;</div>
 	<div class="grid-col-6of10 category-content">
-    	<div class="grid-col-3of10 item-image">
-        <img src="images/product1.jpg">
+    	<div class="grid-col-4of10 item-image" onClick="imageShow()">
+        <img src="images/product1.jpg" alt="blue basket" width="625" height="617" align="middle">
         
         </div>
         
-        <div class="grid-col-5of10 item-content">
+        <div class="grid-col-6of10 item-content">
         	<div class="item-line1">
         	<p>Sweet Surprises</p>
         	</div>
@@ -168,22 +185,25 @@
        		 </div>
         
         	<div class="item-line4">
-        	<p3>ADD TO CARD</p3>
+        	   <a href="shopping-cart.html">
+                    <p3>ADD TO CART</p3></a>
         	</div>
         
         </div>
 
-    </div>
+    </div><!---end first item -->
+  
     
     
     <!--2nd item-->
+     <div class="grid-col-2of10 blank-category">&nbsp;</div>
     <div class="grid-col-6of10 category-content">
-    	<div class="grid-col-3of10 item-image">
-        <img src="images/product2.jpg">
+    	<div class="grid-col-4of10 item-image" onClick="image2Show()">
+            <img src="images/product4.jpg" alt="orange basket" width="625" height="617">
         
         </div>
         
-        <div class="grid-col-5of10 item-content">
+        <div class="grid-col-6of10 item-content">
         	<div class="item-line1">
         	<p>Festical Big Hug</p>
         	</div>
@@ -197,23 +217,25 @@
        		 </div>
         
         	<div class="item-line4">
-        	<p3>ADD TO CARD</p3>
+        	   <a href="shopping-cart.html">
+                    <p3>ADD TO CART</p3></a>
         	</div>
         
         </div>
 
-    </div>
+    </div><!---end second item -->
     
     
     
     <!--3rd item-->
+    <div class="grid-col-2of10 blank-category">&nbsp;</div>
     <div class="grid-col-6of10 category-content">
-    	<div class="grid-col-3of10 item-image">
-        <img src="images/product3.jpg">
+    	<div class="grid-col-4of10 item-image" onClick="image3Show()">
+        <img src="images/product3.jpg" alt="pink basket" width="625" height="617">
         
         </div>
         
-        <div class="grid-col-5of10 item-content">
+        <div class="grid-col-6of10 item-content">
         	<div class="item-line1">
         	<p>Sweet Surprises</p>
         	</div>
@@ -227,22 +249,24 @@
        		 </div>
         
         	<div class="item-line4">
-        	<p3>ADD TO CARD</p3>
+        	   <a href="shopping-cart.html">
+                    <p3>ADD TO CART</p3></a>
         	</div>
         
         </div>
 
-    </div>
+    </div><!---end third item -->
     
     
     <!--4th item-->
+     <div class="grid-col-2of10 blank-category">&nbsp;</div>
     <div class="grid-col-6of10 category-content">
-    	<div class="grid-col-3of10 item-image">
-        <img src="images/product4.jpg">
+    	<div class="grid-col-4of10 item-image" onClick="image4Show()">
+        <img src="images/product2.jpg" alt="purple basket" width="625" height="617">
         
         </div>
         
-        <div class="grid-col-5of10 item-content">
+        <div class="grid-col-6of10 item-content">
         	<div class="item-line1">
         	<p>Festive Big Hug</p>
         	</div>
@@ -256,15 +280,16 @@
        		 </div>
         
         	<div class="item-line4">
-        	<p3>ADD TO CARD</p3>
+        	   <a href="shopping-cart.html">
+                    <p3>ADD TO CART</p3></a>
         	</div>
         
-        </div>
+     </div>
 
-    </div>
+
     
-    
-    
+    </div><!---end forth item -->
+</div>
 </div>
 <!--body wrapper ends-->
 
@@ -277,39 +302,77 @@
 <div class="grid-col-10of10 footer">
 
 
+    <div class="footer-wrapper">
 
-	<!--social media-->
-	<div class="social-media-wrapper">
-	<div class="social-media">
-    <img src="images/facebook-icon.png"></div>
-	<div class="social-media">
-    <img src="images/twitter-icon.png"></div>
-	<div class="social-media">
-    <img src="images/instagram-icon.png"></div>
-	</div>
+        <div class="grid-col-1of3 socialmedia-nav-wrapper">
+    <!--social media-->
+        <div class="social-media-wrapper">
 
-	<!--footer nav-->
-	<div class="footer-nav">
-	<div id="footer-content"><h1>Our Story</h1></div>
-	<div id="footer-content"><h1>Careers</h1></div>
-	<div id="footer-content"><h1>Contact Us</h1></div>
-	<div id="footer-content"><h1>Private Policy</h1></div>
-	<div id="footer-content"><h1>Terms of Service</h1></div>
-	</div>
+           <div class="social-media">
+                <img src="images/facebook-icon.png" alt="facebook icon">
+            </div>
+           <div class="social-media">
+                <img src="images/twitter-icon.png" alt="twitter icon">
+            </div>
+           <div class="social-media">
+                <img src="images/instagram-icon.png" alt="instagram icon">
+            </div>
+       </div>
+   
 
+    <!--footer nav-->
+       <div class="grid-col-3of3 footer-nav">
+       <div id="footer-content"><h1>Our Story</h1></div>
+       <div id="footer-content"><h1>Careers</h1></div>
+    
+       <div id="footer-content"><h1>Private Policy</h1></div>
+       <div id="footer-content"><h1>Terms of Service</h1></div>
+       </div>
+        </div>
+   
 
-	<!--contact form -->
-	<div class="contact-form">
-       
-    <input type="email" id="form-subject" placeholder="Email">
-    <textarea type="text" id="form-subject" placeholder="Send us a message!"></textarea>
-     <button type="button" id="form-subject">Send</button>
-	</div>
+<div class="grid-col-1of3 store-hours">
 
+        <h1>Store Hours</h1>
+ 
+    <div class="store-hours-content">
+        
+            <p>Monday 10:00am - 6:00pm</p>
+
+            <p>Tuesday 10:00am - 6:00pm</p>
+
+            <p>Wednesday 10:00am - 6:00pm</p>
+
+            <p>Thursday 10:00am - 6:00pm</p>
+
+            <p>Friday 10:00am - 6:00pm</p>
+
+            <p>Saturday 10:00am - 6:00pm</p>
+
+            <p>Sunday Closed</p>
+        
+    </div>
 </div>
 
+    <!--contact form -->
+    <div class="grid-col-1of3 contact-form">
+    
+            <div class="contact-title">
+                <h1>Contact Us</h1>
+            </div>
+    
+            <input type="email" id="form-subject" placeholder="Email">
+            
+            <textarea type="text" id="form-subject" placeholder="Send us a message!"></textarea>
+         
+            <button type="button" id="form-subject">Send</button>
+    
 
+    </div>
+    
 
+   
+</div><!--footer end-->
 
 
 </body>
